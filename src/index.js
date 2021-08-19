@@ -1,8 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+
 function Main() {
-  return <h1> this is the main component</h1>;
+  return (<section>
+    <Experiences/>
+    <Experiences/>
+    <Experiences/>
+    <Experiences/>
+    <Experiences/>
+    </section>);
+}
+
+
+const Experiences = () => { 
+  return (<article> Experiences </article>);
 }
 
 ReactDOM.render(<Main />, document.getElementById('root'));
