@@ -5,10 +5,7 @@ import ReactDOM from 'react-dom';
 function Main() {
   return (<section>
     <Experiences/>
-    <Experiences/>
-    <Experiences/>
-    <Experiences/>
-    <Experiences/>
+    
     </section>);
 }
 
