@@ -1,17 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Skill from './skill';
 
 
 function Main() {
-  return (<section>
-    <Experiences/>
+  return (
+  <section>
     
-    </section>);
+    <Skill/>
+    
+  </section>);
 }
 
 
-const Experiences = () => { 
-  return (<article> Experiences </article>);
+const skill = () => { 
+  return (<article> skill </article>);
 }
 
 ReactDOM.render(<Main />, document.getElementById('root'));
