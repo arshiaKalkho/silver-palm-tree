@@ -1,18 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Skill from './Skill';
 import Header from './Header';
 import Footer from './Footer';
+import Body from './Body'
 import "./App.css";
 
 function Main() {
   return (
-  <section>
+  <div className="index">
     <Header/>
-    <Skill/>
+    <Body/>
     <Footer/>
     
-  </section>);
+  </div>);
 }
 
 
