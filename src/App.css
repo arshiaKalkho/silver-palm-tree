@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
 
 html {
   margin: 0;
@@ -39,14 +42,23 @@ html {
   justify-content: end;
 }
 a{
+  text-decoration: none;
   border-radius: 5px;
 }
 a:hover{
-  background-color:rgba(13, 224, 224, 0.3);
+  background-color:rgba(13, 224, 224, 0.2);
+}
+button:hover{
+  background-color:rgba(52, 226, 36, 0.1);
 }
 
 .navbar-button{
   text-decoration: teal;
 }
+.nav-icon{
+  margin: 10px;
+}
 
-
+.myName{
+  font-family: 'Anton', sans-serif;
+}
