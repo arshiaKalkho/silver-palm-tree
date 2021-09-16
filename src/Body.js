@@ -1,6 +1,6 @@
 import { react } from '@babel/types';
 import React, { Component } from 'react';
-import Skill from './Skill';
+import Skill from './skill';
 import Experience from './Experience';
 
 const experiences = [
