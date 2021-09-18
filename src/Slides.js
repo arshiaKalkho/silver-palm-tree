@@ -5,7 +5,7 @@ function Slides() {
 
 
     return(
-        <header>
+        <header className="slideShow">
 
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">

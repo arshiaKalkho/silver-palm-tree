@@ -45,8 +45,7 @@ export default class Body extends Component{
 
         return(
             <div className="body">
-                <Slides/>   
-                <Experience props = {experiences}></Experience>
+                <Slides/>
             </div>
         );
     }
