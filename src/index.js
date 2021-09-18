@@ -16,8 +16,8 @@ function Main() {
 }
 
 
-const skill = () => { 
-  return (<article> skill </article>);
-}
+// const skill = () => { 
+//   return (<article> skill </article>);
+// }
 
 ReactDOM.render(<Main />, document.getElementById('root'));

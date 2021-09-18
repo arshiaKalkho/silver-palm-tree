@@ -1,7 +1,10 @@
-import { react } from '@babel/types';
 import React, { Component } from 'react';
 import Skill from './skill';
 import Experience from './Experience';
+import Slides from './Slides';
+
+
+
 
 const experiences = [
     
@@ -42,7 +45,8 @@ export default class Body extends Component{
 
         return(
             <div className="body">
-                <Experience experiences></Experience>
+                <Slides/>   
+                <Experience props = {experiences}></Experience>
             </div>
         );
     }
