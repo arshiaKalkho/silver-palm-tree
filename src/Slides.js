@@ -15,20 +15,21 @@ function Slides() {
             </div>
             <div class="carousel-inner">
             <div class="slide1 carousel-item active">
+                
                 <div class="carousel-caption">
-                <h5>First slide label</h5>
+                <h5>Welcome</h5>
                 <p>Some representative placeholder content for the first slide.</p>
                 </div>
             </div>
             <div class="slide2 carousel-item">
                 <div class="carousel-caption">
-                <h5>Second slide label</h5>
+                <h5>How I made this website</h5>
                 <p>Some representative placeholder content for the second slide.</p>
                 </div>
             </div>
             <div class="slide3 carousel-item">
                 <div class="carousel-caption">
-                <h5>Third slide label</h5>
+                <h5>i will be looking forward to meet you</h5>
                 <p>Some representative placeholder content for the third slide.</p>
                 </div>
             </div>
@@ -42,6 +43,7 @@ function Slides() {
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
+        
         </header>
     );
 }

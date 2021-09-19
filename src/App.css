@@ -1,13 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 
 html {
-
   margin: 0;
   padding: 0;
-  font-family: 'Anton', sans-serif;
+  font-family: "Anton", sans-serif;
 }
 .carousel-item {
   height: 100vh;
@@ -18,47 +15,51 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
- .footer {
-  position:relative;
-  left:0;
-  bottom:0;
-  right:0;
-  
-} 
-.footer div{
+.myName {
+  margin-left: 10px;
+}
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.footer div {
   text-align: center;
 }
-a{
+a {
   text-decoration: none;
   border-radius: 5px;
 }
-a:hover{
-  background-color:rgba(13, 224, 224, 0.2);
+.nav-item > a:hover {
+  background-color: rgba(13, 224, 224, 0.2);
 }
-button:hover{
-  background-color:rgba(52, 226, 36, 0.1);
-}
-
-.root{
-  height : 100%;
+button:hover {
+  background-color: rgba(52, 226, 36, 0.1);
 }
 
+.root {
+  height: 100%;
+}
 
-.myName{
-  font-family: 'Anton', sans-serif;
+.myName {
+  font-family: "Anton", sans-serif;
+}
+.col-md-4 {
+  margin-top: 8px;
+}
 
+.slide1 {
+  background-image: url("./personal-portfolio.jpg");
 }
-.col-md-4{margin-top: 8px;}
-
-.slide1{
-   background-image: url('./personal-portfolio.jpg');
+.slide2 {
+  background-image: url("./outOfFocusBackground.jpg");
 }
-.slide2{
-  background-image: url('./outOfFocusBackground.jpg');
+.slide2 h5 {
 }
-.slide2 h5{
-  
+.slide3 {
+  background-image: url("./react.jpg");
 }
-.slide3{
-  background-image: url('./react.jpg');
+.links {
+  padding: 9px 50px;
 }
