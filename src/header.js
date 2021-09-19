@@ -6,7 +6,7 @@ export default class Header extends Component{
 
     render(){
         return(
-        <nav class="navbar navbar-expand navbar-light bg-light">
+        <nav class="navbar navbar-expand navbar-light">
         <a class="myName navbar-brand" href="#">Arshia A Kalkhorani</a>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
@@ -20,7 +20,7 @@ export default class Header extends Component{
                         <a class="nav-link navbar-button" href="#">Experiences</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link navbar-button" href="#">Contact Me</a>
+                        <a class="nav-link navbar-button" href="#">Contact</a>
                     </li>
                     
                     <li class="nav-item" >

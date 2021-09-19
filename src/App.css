@@ -28,9 +28,6 @@ html {
 .footer div{
   text-align: center;
 }
-.navbar {
-  position:relative;
-}
 a{
   text-decoration: none;
   border-radius: 5px;
@@ -49,6 +46,7 @@ button:hover{
 
 .myName{
   font-family: 'Anton', sans-serif;
+
 }
 .col-md-4{margin-top: 8px;}
 
@@ -57,6 +55,9 @@ button:hover{
 }
 .slide2{
   background-image: url('./outOfFocusBackground.jpg');
+}
+.slide2 h5{
+  
 }
 .slide3{
   background-image: url('./react.jpg');
