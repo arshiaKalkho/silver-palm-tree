@@ -1,9 +1,9 @@
 import { Component } from "react";
-
+import { Alert } from "react-bootstrap";
 
  export default class Footer extends Component{
 
-
+    
     render() {
    
         return(
@@ -55,15 +55,15 @@ import { Component } from "react";
                     <div className="col-md-4"></div>
                     
                     <div className="col-md-4">
-                        <button type="button" class="btn btn-outline-success btn-sm">
+                        <button type="button" class="email btn btn-outline-success btn-sm">
                             <a className ="clipboard" onClick={() => {navigator.clipboard.writeText("arshiabdol@gmail.com")}}>
-                            <h5>Copy Email to clipboard</h5></a>
+                             <h5>Copy Email to clipboard</h5></a>
                         </button>
                     </div>
                     
                     
                     <div className="col-md-4"></div>
-        
+                    
                     
                 </div>
                     

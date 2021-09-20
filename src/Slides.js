@@ -28,8 +28,12 @@ function Slides() {
                 </div>
             </div>
             <div class="slide3 carousel-item">
+                
                 <div class="carousel-caption">
-                <h5>i will be looking forward to meet you</h5>
+                    <div>
+                    <h1>hellow world</h1>
+                </div>
+                <h5>i look forward to work with you</h5>
                 <p>Some representative placeholder content for the third slide.</p>
                 </div>
             </div>

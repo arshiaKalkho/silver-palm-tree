@@ -1,10 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import Header from './header';
 import Footer from './footer';
 import Body from './Body';
 import "./App.css";
-import Slides from './Slides';
+
 
 function Main() {
   return (
