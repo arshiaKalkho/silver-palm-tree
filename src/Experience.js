@@ -11,13 +11,13 @@ function Experience() {
         
     const exp = experiences.map( (data)=>{       
             return(
-            <Card key={data.id}>
-                <Card.Title>
+            <Card key={data.id} className="cards"> 
+                <Card.Title className="cards-title">
                     {data.title}
                 </Card.Title>
                
                 
-                <Card.Body>
+                <Card.Body className="cards-body">
                     {data.startDate}
                     {data.endDate}
                     {data.explanation}

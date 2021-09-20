@@ -8,12 +8,13 @@ import {Card} from "react-bootstrap";
 export default function skill(){
     const Skilllist = skills.map((data)=>{
         return(
-            <Card key={data.id}>
-                <Card.Body>
+            <Card key={data.id} className="cards">
+                <Card.Title className="cards-title">
                     {data.id}
-                </Card.Body>
-                <Card.Body>
-                    {data.name}
+                </Card.Title>
+                
+                <Card.Body className="cards-body">
+                     {data.name}
                 </Card.Body>
             </Card>
         );

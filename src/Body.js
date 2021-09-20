@@ -15,6 +15,7 @@ export default class Body extends Component{
 
         return(
             <div className="body">
+                
                 <div>
                     <Slides/>
                 </div>

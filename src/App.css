@@ -6,6 +6,23 @@ html {
   padding: 0;
   font-family: "Anton", sans-serif;
 }
+.body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
 .carousel-item {
   height: 100vh;
   min-height: 350px;
@@ -66,5 +83,42 @@ button:hover {
 .widget > div{
   margin: 10px;
   padding:5px;
-  background-color: rgb(109, 238, 238);
+  /* background-color: rgb(109, 238, 238); */
+}
+.cards-title{
+  margin: 5px;
+}
+.cards{
+  background-color: rgba(236, 28, 226, 0.2);
+  border:2px;
+  border-style: outset;
+  margin-top: 5px;
+  border-radius: 10px;
+  text-decoration: aqua;
+}
+.skills-div{
+  border-radius: 10px;
+  /* border-style: double;
+  border-color: lightgray; */
+}
+.skills-div>h3{
+  border-radius: 15px;
+  width:8rem;
+  height: 2.5rem;
+  background-color: silver;
+  border-style: outset;
+  text-align: center;
+}
+.experiences-div{
+  border-radius: 10px;
+  /* border-style: double;
+  border-color: lightgray; */
+}
+.experiences-div>h3{
+  border-radius: 15px;
+  width:10rem;
+  height: 2.5rem;
+  background-color: silver;
+  border-style: outset;
+  text-align: center;
 }
