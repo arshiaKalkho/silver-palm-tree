@@ -1,21 +1,30 @@
 import React from "react";
+import { Card } from "react-bootstrap";
+import experiences from "./data/experiences.json";
 
 
 
+function Experience() {
+    
 
-function Experience(props) {
-    const {title, startDate, endDate, explanation} = props;
-
-    return(
-        <article className="experience">
-            
-            <h1>{title}</h1>
-            <h4>{startDate}</h4>
-            <h4>{endDate}</h4>
-            <p>{explanation}</p>
-
-        </article>
-    );
+    
+        
+    const exp = experiences.map( (data)=>{       
+            return(
+            <Card key={data.id}>
+                <Card.Title>
+                    {data.title}
+                </Card.Title>
+               
+                
+                <Card.Body>
+                    {data.startDate}
+                    {data.endDate}
+                    {data.explanation}
+                </Card.Body>
+            </Card>)
+    });
+            return(<div>{exp}</div>);
 
 
 }

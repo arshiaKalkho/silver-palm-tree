@@ -10,6 +10,9 @@ export default function skill(){
         return(
             <Card key={data.id}>
                 <Card.Body>
+                    {data.id}
+                </Card.Body>
+                <Card.Body>
                     {data.name}
                 </Card.Body>
             </Card>

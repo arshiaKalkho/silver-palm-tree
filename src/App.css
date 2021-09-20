@@ -63,3 +63,8 @@ button:hover {
 .links {
   padding: 9px 50px;
 }
+.widget > div{
+  margin: 10px;
+  padding:5px;
+  background-color: rgb(109, 238, 238);
+}
