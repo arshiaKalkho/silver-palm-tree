@@ -7,20 +7,23 @@ export class widget extends Component {
     
     render() {
         return (
-            <div className="widget row" >
-                <div className="col-sm-1"></div>
-                
-                    <div className="col-md-4 skills-div">
+            <div className="widget container" >
+                    
+
                         <h3>Skills</h3>
-                        <Skill/>
-                    </div>
-                    
-                    <div className="col-md-4 experiences-div">
+                        <div className="skills-div">
+                            
+                            <Skill/>
+                        </div>
+                        
                         <h3>Experiences</h3>
-                        <Experience/>
-                    </div>
+                        <div className="experiences-div">
+                            
+                            <Experience/>
+                        </div>
+                        
+                        
                     
-                <div className="col-sm-1"></div>
                 
             </div>
         )

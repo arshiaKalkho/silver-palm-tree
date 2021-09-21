@@ -96,10 +96,16 @@ button:hover {
   border-radius: 10px;
   text-decoration: aqua;
 }
+.cards:hover{
+  background-color: rgba(13, 224, 224, 0.2)
+  
+}
 .skills-div{
   border-radius: 10px;
-  /* border-style: double;
-  border-color: lightgray; */
+  max-height: 30rem;
+  width: 100%;
+  overflow-y: scroll;
+
 }
 .skills-div>h3{
   border-radius: 15px;
@@ -111,14 +117,42 @@ button:hover {
 }
 .experiences-div{
   border-radius: 10px;
-  /* border-style: double;
-  border-color: lightgray; */
+  max-height: 30rem;
+  width: 100%;
+  overflow-y: scroll;
 }
-.experiences-div>h3{
+.widget-div{
+  border-radius: 10px;
+  max-height: 30rem;
+  width: 100%;
+  overflow-y: scroll;
+}
+.widget-div>h3{
   border-radius: 15px;
   width:10rem;
   height: 2.5rem;
   background-color: silver;
   border-style: outset;
   text-align: center;
+  align-self: center;
+}
+.experiences-div::-webkit-scrollbar {
+  width: 1em;
+}
+.experiences-div::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 1px rgba(0,0,0,1);
+}
+.experiences-div::-webkit-scrollbar-thumb {
+background-color: rgb(169, 169, 169);
+outline: 1px solid rgb(112, 144, 114);
+}
+.skills-div::-webkit-scrollbar {
+  width: 1em;
+}
+.skills-div::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 1px rgba(0,0,0,1);
+}
+.skills-div::-webkit-scrollbar-thumb {
+background-color: darkgrey;
+outline: 1px solid slategrey;
 }

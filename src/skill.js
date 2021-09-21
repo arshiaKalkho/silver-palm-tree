@@ -10,11 +10,13 @@ export default function skill(){
         return(
             <Card key={data.id} className="cards">
                 <Card.Title className="cards-title">
-                    {data.id}
+                <h2>{data.id}</h2>
+                    
                 </Card.Title>
                 
                 <Card.Body className="cards-body">
                      {data.name}
+                     
                 </Card.Body>
             </Card>
         );

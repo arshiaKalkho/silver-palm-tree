@@ -8,6 +8,21 @@
         "explanation":"works with voltaire power, on a full stack application"
     
     },{
+    
+        "id":1,
+        "title":"Capstone project - Seneca College",
+        "startDate":"1/1/2020",
+        "endDate":"1/3/2020",
+        "explanation":"works with voltaire power, on a full stack application"
+    
+    },{
+        "id":1,
+        "title":"Capstone project - Seneca College",
+        "startDate":"1/1/2020",
+        "endDate":"1/3/2020",
+        "explanation":"works with voltaire power, on a full stack application"
+    
+    },{
         "id":2,
         "title":"Peer Tutor - Senecal Collge",
         "startDate":"1/1/2020",
@@ -22,6 +37,30 @@
         "explanation":"designed a ibm I based application to calculate accurate running distances by coordinates"
     
     },{
+        "id":4,
+        "title":"C",
+        "startDate":"1/1/2020",
+        "endDate":"1/3/2020",
+        "explanation":"works with voltaire power, on a full stack application"
+    
+    }
+    ,{
+        "id":4,
+        "title":"C",
+        "startDate":"1/1/2020",
+        "endDate":"1/3/2020",
+        "explanation":"works with voltaire power, on a full stack application"
+    
+    }
+    ,{
+        "id":4,
+        "title":"C",
+        "startDate":"1/1/2020",
+        "endDate":"1/3/2020",
+        "explanation":"works with voltaire power, on a full stack application"
+    
+    }
+    ,{
         "id":4,
         "title":"C",
         "startDate":"1/1/2020",
