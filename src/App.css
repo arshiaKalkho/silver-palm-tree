@@ -35,9 +35,7 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
-.myName {
-  margin-left: 10px;
-}
+
 .footer {
   position: relative;
   left: 0;
@@ -66,6 +64,7 @@ button:hover {
 }
 
 .myName {
+  margin-left: 0px;
   font-family: "Anton", sans-serif;
 }
 .col-md-4 {
@@ -112,14 +111,7 @@ button:hover {
   overflow-y: scroll;
 
 }
-.skills-div>h3{
-  border-radius: 15px;
-  width:8rem;
-  height: 2.5rem;
-  background-color: silver;
-  border-style: outset;
-  text-align: center;
-}
+
 .experiences-div{
   border-radius: 10px;
   max-height: 30rem;
@@ -135,6 +127,7 @@ button:hover {
 .widget>h3{
   margin:2rem 0rem;
   border-radius: 5px;
+  height: 2.5rem;
   background-color:rgba(236, 28, 226, 0.2);
   border-style: outset;
   text-align: center;
