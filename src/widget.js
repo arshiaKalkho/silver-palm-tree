@@ -8,15 +8,15 @@ export class widget extends Component {
     render() {
         return (
             <div className="widget container" >
-                    
+                    <h3>Skills</h3>
                     <div class="skills-div row">
-                        <h3>Skills</h3>
-                        <div className="col-md-6">
+                        
+                        <div className="col-sm-6">
                             
                                 <Skill id = {1}/>
                             
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-sm-6">
                             
                                 <Skill id = {0}/>
                             
