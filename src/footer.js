@@ -1,5 +1,5 @@
 import { Component } from "react";
-import ScrollToTop from "./ScrollToTop";
+import ScrollTo from "./ScrollTo";
 
  export default class Footer extends Component{
 
@@ -64,7 +64,7 @@ import ScrollToTop from "./ScrollToTop";
                     
                     <div className="col-md-4">
 
-                        <ScrollToTop/>
+                        <ScrollTo location={0}/>
                     </div>
                     
                     
