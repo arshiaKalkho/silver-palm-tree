@@ -1,5 +1,5 @@
 import { Component } from "react";
-import { Alert } from "react-bootstrap";
+import ScrollToTop from "./ScrollToTop";
 
  export default class Footer extends Component{
 
@@ -62,7 +62,10 @@ import { Alert } from "react-bootstrap";
                     </div>
                     
                     
-                    <div className="col-md-4"></div>
+                    <div className="col-md-4">
+
+                        <ScrollToTop/>
+                    </div>
                     
                     
                 </div>

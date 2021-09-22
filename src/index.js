@@ -11,7 +11,7 @@ import "./App.css";
 function Main() {
   return (
   <div className="index">
-    <Header/>
+    <Header/> 
     <Body/>
     <Footer/>
     
