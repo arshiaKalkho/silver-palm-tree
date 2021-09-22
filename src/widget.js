@@ -9,12 +9,21 @@ export class widget extends Component {
         return (
             <div className="widget container" >
                     
-
+                    <div class="skills-div row">
                         <h3>Skills</h3>
-                        <div className="skills-div">
+                        <div className="col-md-6">
                             
-                            <Skill/>
+                                <Skill id = {1}/>
+                            
                         </div>
+                        <div className="col-md-6">
+                            
+                                <Skill id = {0}/>
+                            
+                        </div>
+                    </div>
+                        
+                        
                         
                         <h3>Experiences</h3>
                         <div className="experiences-div">
