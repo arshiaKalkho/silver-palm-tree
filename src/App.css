@@ -5,6 +5,7 @@ html {
   margin: 0;
   padding: 0;
   font-family: "Anton", sans-serif;
+  overflow-x: hidden;
 }
 .body {
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
@@ -69,14 +70,14 @@ button:hover {
 }
 
 .slide1 {
-  background-image: url("./personal-portfolio.jpg");
+  background-image: url("./images/personal-portfolio.jpg");
 }
 .slide2 {
-  background-image: url("./outOfFocusBackground.jpg");
+  background-image: url("./images/outOfFocusBackground.jpg");
 }
 
 .slide3 {
-  background-image: url("./react.jpg");
+  background-image: url("./images/react.jpg");
 }
 .links {
   padding: 9px 50px;
@@ -103,6 +104,7 @@ button:hover {
   width: 100%;
   columns : 2 auto;
   overflow-y: scroll;
+  background-image: url("./images/skills-div-background.png");
   
   /* -webkit-columns: 100px 2;
   -moz-columns: 100px 2;
@@ -126,6 +128,7 @@ button:hover {
   max-height: 30rem;
   width: 100%;
   overflow-y: scroll;
+  background-image: url("./images/experiences-div-background.png");
 }
 
 .widget>h3{
@@ -156,4 +159,14 @@ outline: 1px solid rgb(112, 144, 114);
 .skills-div::-webkit-scrollbar-thumb {
 background-color: rgb(87, 84, 84);
 outline: 1px solid rgb(112, 144, 114);
+}
+.summery{
+  /* background-image: url("./images/summery-background-from.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 50rem; */
+}
+.summery-text{
+  margin:0px 10px;
 }

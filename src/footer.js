@@ -63,8 +63,11 @@ import ScrollTo from "./ScrollTo";
                     
                     
                     <div className="col-md-4">
-
-                        <ScrollTo location={0}/>
+                        
+                            <a className="links">
+                                <ScrollTo location={0} text="Back To Top"/>
+                            </a>
+                       
                     </div>
                     
                     

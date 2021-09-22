@@ -8,6 +8,8 @@ export class widget extends Component {
     render() {
         return (
             <div className="widget container" >
+                    
+                    <div className="col-sm-2"></div>
                     <h3>Skills</h3>
                     <div class="skills-div row">
                         

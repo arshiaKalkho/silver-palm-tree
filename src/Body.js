@@ -16,13 +16,16 @@ export default class Body extends Component{
         return(
             <div className="body">
                 
+                
                 <div>
                     <Slides/>
+                </div>
+                <div className="summery">
+                    <Summery/>
                 </div>
                 <div>
                     <Widget/>
                 </div>
-                <Summery/>
             </div>
         );
     }

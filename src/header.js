@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import {Navbar, Container, Nav, NavDropdown} from "react-bootstrap";
+import ScrollTo from "./ScrollTo";
 
 
 
@@ -18,10 +19,11 @@ export default class Header extends Component{
                     <Nav className="me-auto">
                         
                         <NavDropdown title="Quick Access" id="basic-nav-dropdown">
-                                <NavDropdown.Item href="#footer">Action</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                            <NavDropdown.Divider />
+                                
+                                <ScrollTo location={100000} text="About Me"/>
+                                <ScrollTo location={100000} text="Experiences And Skills"/>
+                                <ScrollTo location={100000} text="Contact Me"/>
+                                    <NavDropdown.Divider />
                                 <NavDropdown.Item    
                                 onClick={() => {navigator.clipboard.writeText("arshiabdol@gmail.com")}}>
                                     Copy Email To ClipBoard</NavDropdown.Item>
