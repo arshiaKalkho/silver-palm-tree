@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Widget from './widget';
 import Slides from './Slides';
-
+import Summery from './Summery';
 
 
 
@@ -22,6 +22,7 @@ export default class Body extends Component{
                 <div>
                     <Widget/>
                 </div>
+                <Summery/>
             </div>
         );
     }

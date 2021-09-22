@@ -67,44 +67,37 @@ button:hover {
   margin-left: 0px;
   font-family: "Anton", sans-serif;
 }
-.col-md-4 {
-  margin-top: 8px;
-}
+
 .slide1 {
   background-image: url("./personal-portfolio.jpg");
 }
 .slide2 {
   background-image: url("./outOfFocusBackground.jpg");
 }
-.slide2 h5 {
-}
+
 .slide3 {
   background-image: url("./react.jpg");
 }
 .links {
   padding: 9px 50px;
 }
-.widget > div{
-  margin: 10px;
-  padding:5px;
-  /* background-color: rgb(109, 238, 238); */
-}
 .cards-title{
   margin: 5px;
+  font-family: "Anton", sans-serif;
 }
 .cards{
-  background-color: rgba(236, 28, 226, 0.2);
+  background-color: rgba(255, 255, 255, 0.8);
   border:2px;
-  border-style: outset;
+  border-style: ridge;
   margin-top: 5px;
   border-radius: 10px;
-  text-decoration: aqua;
 }
 .cards:hover{
   background-color: rgba(13, 224, 224, 0.2)
   
 }
 .skills-div{
+  margin-left: 0px;
   border-radius: 10px;
   max-height: 30rem;
   width: 100%;
@@ -121,8 +114,12 @@ button:hover {
   page-break-inside: avoid;
   break-inside: avoid-column; */
   
-
 }
+  
+  .widget > div{
+    
+     background-color: rgb(229, 233, 233); 
+  }
 
 .experiences-div{
   border-radius: 10px;
@@ -130,37 +127,33 @@ button:hover {
   width: 100%;
   overflow-y: scroll;
 }
-.widget-div{
-  border-radius: 10px;
-  max-height: 30rem;
-  width: 100%;
-  overflow-y: scroll;
-}
+
 .widget>h3{
   margin:2rem 0rem;
   border-radius: 5px;
   height: 2.5rem;
-  background-color:rgba(236, 28, 226, 0.2);
+  font-family: "Anton", sans-serif;
+  background-color:rgba(255, 255, 255, 1);
   border-style: outset;
   text-align: center;
 }
 .experiences-div::-webkit-scrollbar {
-  width: 1em;
+  width: 0.5em;
 }
 .experiences-div::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 1px rgba(0,0,0,1);
 }
 .experiences-div::-webkit-scrollbar-thumb {
-background-color: rgb(169, 169, 169);
+background-color: rgb(87, 84, 84);
 outline: 1px solid rgb(112, 144, 114);
 }
 .skills-div::-webkit-scrollbar {
-  width: 1em;
+  width: 0.5em;
 }
 .skills-div::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 1px rgba(0,0,0,1);
 }
 .skills-div::-webkit-scrollbar-thumb {
-background-color: darkgrey;
-outline: 1px solid slategrey;
+background-color: rgb(87, 84, 84);
+outline: 1px solid rgb(112, 144, 114);
 }
