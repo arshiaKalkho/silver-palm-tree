@@ -20,13 +20,26 @@ export default class Body extends Component{
                 <div>
                     <Slides/>
                 </div>
-                <div className="summery">
-                    <Summery/>
+                
+                <div className="row">
+                    
+                    <div className="side-body-left col-sm-1" data-aos="fade-left" data-aos-delay="100"></div>
+                    
+                    <div className="col-md-10">
+                        
+                        <div className="summery"data-aos="fade-right" >
+                            <Summery/>
+                        </div>
+                        <div data-aos="fade-left">
+                            <Widget/>
+                        </div>
+                    </div>
+
+                    <div className="side-body-right col-1"data-aos="fade-right" data-aos-delay="100"></div>
                 </div>
-                <div>
-                    <Widget/>
-                </div>
+            
             </div>
+
         );
     }
 

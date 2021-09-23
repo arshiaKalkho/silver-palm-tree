@@ -4,15 +4,18 @@
 html {
   margin: 0;
   padding: 0;
+  height: 100%;
   font-family: "Anton", sans-serif;
   overflow-x: hidden;
 }
 .body {
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-  /* background: linear-gradient(-45deg, #ffffff, #110f10, #d3dee2, #141a18); */
+  /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
- 
+  animation: gradient 15s ease infinite; */
+
+  background-image: url("./images/main-grey-background.svg");
+ background-size: cover;
+
 }
 
 
@@ -87,7 +90,7 @@ button:hover {
   font-family: "Anton", sans-serif;
 }
 .cards{
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.2);
   border:2px;
   border-style: ridge;
   margin-top: 5px;
@@ -104,17 +107,9 @@ button:hover {
   width: 100%;
   columns : 2 auto;
   overflow-y: scroll;
-  background-image: url("./images/skills-div-background.png");
   
-  /* -webkit-columns: 100px 2;
-  -moz-columns: 100px 2;
-  columns: 100px 2;
-  -webkit-column-gap: 0;
-  -moz-column-gap: 0;
-  column-gap: 1rem;
-  -webkit-column-break-inside: avoid;
-  page-break-inside: avoid;
-  break-inside: avoid-column; */
+  
+  
   
 }
   
@@ -128,7 +123,7 @@ button:hover {
   max-height: 30rem;
   width: 100%;
   overflow-y: scroll;
-  background-image: url("./images/experiences-div-background.png");
+  
 }
 
 .widget>h3{
@@ -136,9 +131,10 @@ button:hover {
   border-radius: 5px;
   height: 2.5rem;
   font-family: "Anton", sans-serif;
-  background-color:rgba(255, 255, 255, 1);
   border-style: outset;
   text-align: center;
+
+  background-image: url("./images/skills-div-background.png");
 }
 .experiences-div::-webkit-scrollbar {
   width: 0.5em;
@@ -161,12 +157,30 @@ background-color: rgb(87, 84, 84);
 outline: 1px solid rgb(112, 144, 114);
 }
 .summery{
-  /* background-image: url("./images/summery-background-from.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  min-height: 50rem; */
+   
+  background-color: rgba(0,0,0,0.5);
+
+  
 }
 .summery-text{
   margin:0px 10px;
+}
+.side-body-left{
+ background-image: url("./images/body-left.svg");
+ background-size: contain;
+
+
+}
+.side-body-right{
+ background-image: url("./images/body-right.svg");
+ background-size: contain;
+ 
+
+}
+@media (max-width:766px){
+  
+  .body{
+    background-image: url("./images/small-device-body-background.png");
+    background-size: cover;
+  }
 }
