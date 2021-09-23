@@ -24,7 +24,7 @@ function Experience() {
                 </Card.Body>
             </Card>)
     });
-            return(<div>{exp}</div>);
+            return(<div className="each-Widget">{exp}</div>);
 
 
 }

@@ -9,14 +9,14 @@
     
     },{
     
-        "id":1,
+        "id":6,
         "title":"Capstone project - Seneca College",
         "startDate":"1/1/2020",
         "endDate":"1/3/2020",
         "explanation":"works with voltaire power, on a full stack application"
     
     },{
-        "id":1,
+        "id":9,
         "title":"Capstone project - Seneca College",
         "startDate":"1/1/2020",
         "endDate":"1/3/2020",
@@ -45,7 +45,7 @@
     
     }
     ,{
-        "id":4,
+        "id":10,
         "title":"C",
         "startDate":"1/1/2020",
         "endDate":"1/3/2020",
@@ -53,7 +53,7 @@
     
     }
     ,{
-        "id":4,
+        "id":13,
         "title":"C",
         "startDate":"1/1/2020",
         "endDate":"1/3/2020",
@@ -61,7 +61,7 @@
     
     }
     ,{
-        "id":4,
+        "id":14,
         "title":"C",
         "startDate":"1/1/2020",
         "endDate":"1/3/2020",

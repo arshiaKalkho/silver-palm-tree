@@ -13,12 +13,12 @@ export class widget extends Component {
                     <h3>Skills</h3>
                     <div class="skills-div row">
                         
-                        <div className="col-sm-6">
+                        <div className="widget-half-div col-sm-6">
                             
                                 <Skill id = {1}/>
                             
                         </div>
-                        <div className="col-sm-6">
+                        <div className="widget-half-div col-sm-6">
                             
                                 <Skill id = {0}/>
                             

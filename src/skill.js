@@ -30,5 +30,5 @@ export default function skill(props){
             return "";
         }
     });
-    return(<div>{Skilllist}</div>);
+    return(<div className="each-Widget">{Skilllist}</div>);
 }
