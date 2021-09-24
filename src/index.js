@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import Header from './header';
+
+import NavBar from './NavBar'
 import Footer from './footer';
 import Body from './Body';
 import "./App.css";
@@ -11,7 +12,8 @@ import "./App.css";
 function Main() {
   return (
   <div className="index">
-    <Header/> 
+    
+    <NavBar/> 
     <Body/>
     <Footer/>
     

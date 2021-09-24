@@ -9,6 +9,54 @@ html {
   overflow-x: hidden;
 
 }
+
+.nav-container{
+  margin-right: 0px;
+}
+.navbar{margin-top: 0;}
+
+a.nav-link{
+  margin-left: 10px;
+  
+}
+
+
+
+
+
+
+.navbar-links{
+  /* margin:0vh 2vh; */
+  font-family: "Anton", sans-serif;
+}
+.nav-link:hover{
+  background-color: rgb(99, 214, 46);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .body {
   /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 400% 400%;
@@ -16,21 +64,15 @@ html {
 
   background-image: url("./images/main-grey-background.svg");
  background-size: cover;
+ 
+ 
 
 }
 
-
-@keyframes gradient {
-  0% {
-      background-position: 0% 50%;
-  }
-  50% {
-      background-position: 100% 50%;
-  }
-  100% {
-      background-position: 0% 50%;
-  }
+.body-footer-spacer{
+  min-height: 10vh;
 }
+
 .carousel-item {
   height: 100vh;
   min-height: 350px;
@@ -42,13 +84,16 @@ html {
 }
 
 .footer {
+
   position: relative;
   left: 0;
   bottom: 0;
   right: 0;
+ 
 }
 .footer div {
   text-align: center;
+  background-color: darkgray;
 }
 a {
   text-decoration: none;
@@ -58,7 +103,9 @@ a {
   background-color: rgba(13, 224, 224, 0.2);
 }
 
-
+.nav-item .navbar-toggler-icon{
+  margin-right:10px;
+}
 
 button:hover {
   background-color: rgba(52, 226, 36, 0.1);
@@ -69,7 +116,7 @@ button:hover {
 }
 
 .myName {
-  margin-left: 0px;
+  margin-left: 10px;
   font-family: "Anton", sans-serif;
 }
 
@@ -197,7 +244,7 @@ outline: 1px solid rgb(112, 144, 114);
   padding: 10px;
 }
 
-@media (max-width:600px){
+@media (max-width:760px){
   
   .body{
     background-image: url("./images/small-device-body-background.png");
