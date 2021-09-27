@@ -7,55 +7,27 @@ html {
   height: 100%;
   font-family: "Anton", sans-serif;
   overflow-x: hidden;
-
 }
 
-.nav-container{
+.nav-container {
   margin-right: 0px;
 }
-.navbar{margin-top: 0;}
-
-a.nav-link{
-  margin-left: 10px;
-  
+.navbar {
+  margin-top: 0;
 }
 
+a.nav-link {
+  margin-left: 10px;
+}
 
-
-
-
-
-.navbar-links{
+.navbar-links {
   /* margin:0vh 2vh; */
   font-family: "Anton", sans-serif;
 }
-.nav-link:hover{
-  background-color: rgb(99, 214, 46);
+.nav-link:hover,
+.myName:hover {
+  background-color: rgb(214, 127, 46);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .body {
   /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
@@ -63,15 +35,12 @@ a.nav-link{
   animation: gradient 15s ease infinite; */
 
   background-image: url("./images/body-background.jpg");
- background-size: cover;
- background-position: center;
- background-attachment: fixed;
- 
- 
-
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
-.body-footer-spacer{
+.body-footer-spacer {
   min-height: 10vh;
 }
 
@@ -86,12 +55,10 @@ a.nav-link{
 }
 
 .footer {
-
   position: relative;
   left: 0;
   bottom: 0;
   right: 0;
- 
 }
 .footer div {
   text-align: center;
@@ -105,8 +72,8 @@ a {
   background-color: rgba(13, 224, 224, 0.2);
 }
 
-.nav-item .navbar-toggler-icon{
-  margin-right:10px;
+.nav-item .navbar-toggler-icon {
+  margin-right: 10px;
 }
 
 button:hover {
@@ -118,7 +85,8 @@ button:hover {
 }
 
 .myName {
-  margin-left: 10px;
+  padding: 4px;
+  margin: 0px 10px;
   font-family: "Anton", sans-serif;
 }
 
@@ -126,71 +94,65 @@ button:hover {
   background-image: url("./images/personal-portfolio.jpg");
 }
 .slide2 {
-  background-image: url("./images/outOfFocusBackground.jpg");
+  background-image: url("");
 }
 
 .slide3 {
   background-image: url("./images/react.jpg");
 }
+.slide4 {
+  background-image: url("./images/second-slide-image.jpg");
+}
 .links {
   padding: 9px 50px;
 }
-.cards-title{
+.cards-title {
   margin: 5px;
   font-family: "Anton", sans-serif;
 }
-.cards{
+.cards {
   background-color: rgba(255, 255, 255, 0.2);
-  border:2px;
+  border: 2px;
   border-style: ridge;
   margin-top: 5px;
   border-radius: 10px;
 }
-.cards:hover{
-  background-color: rgba(13, 224, 224, 0.2)
-  
+.cards:hover {
+  background-color: rgba(13, 224, 224, 0.2);
 }
-.skills-div{
+.skills-div {
   margin-left: 0px;
   border-radius: 10px;
   max-height: 30rem;
   width: 100%;
-  columns : 2 auto;
+  columns: 2 auto;
   overflow-y: scroll;
-
-  
-  
-  
-  
 }
-  
-  .widget > div{
-    
-     background-color: rgba(229, 233, 233,0); 
-    }
-  .widget-half-div{
-      
-      background-color: rgba(229, 233, 233,0.2); 
-  }
-  .each-Widget{
-    background-color: rgba(204, 198, 198, 0.6);
-  }
 
-.experiences-div{
+.widget > div {
+  background-color: rgba(229, 233, 233, 0);
+}
+.widget-half-div {
+  background-color: rgba(229, 233, 233, 0.2);
+}
+.each-Widget {
+  background-color: rgba(204, 198, 198, 0.6);
+}
+
+.experiences-div {
   border-radius: 10px;
   max-height: 30rem;
   width: 100%;
   overflow-y: scroll;
-  
 }
 
-.widget>h3{
-  margin:2rem 0rem;
+.widget > h3 {
+  margin: 2rem 0rem;
   border-radius: 5px;
   height: 2.5rem;
   font-family: "Anton", sans-serif;
-  color:white;
-  
+  color: white;
+
   text-align: center;
 
   background-image: url("./images/main-grey-background.svg");
@@ -199,52 +161,46 @@ button:hover {
   width: 0.5em;
 }
 .experiences-div::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 1px rgba(0,0,0,1);
+  -webkit-box-shadow: inset 0 0 1px rgba(0, 0, 0, 1);
 }
 .experiences-div::-webkit-scrollbar-thumb {
-background-color: rgb(87, 84, 84);
-outline: 1px solid rgb(112, 144, 114);
+  background-color: rgb(87, 84, 84);
+  outline: 1px solid rgb(112, 144, 114);
 }
 .skills-div::-webkit-scrollbar {
   width: 0.5em;
 }
 .skills-div::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 1px rgba(0,0,0,1);
+  -webkit-box-shadow: inset 0 0 1px rgba(0, 0, 0, 1);
 }
 .skills-div::-webkit-scrollbar-thumb {
-background-color: rgb(87, 84, 84);
-outline: 1px solid rgb(112, 144, 114);
+  background-color: rgb(87, 84, 84);
+  outline: 1px solid rgb(112, 144, 114);
 }
-.summery{
-   
+.summery {
   background-color: white;
   border-radius: 10px;
   word-break: break-all;
-  
 }
-.summery-text{
+.summery-text {
   margin-top: 10px;
 }
-.body-row{
+.body-row {
   margin-right: 0;
   /* this is needed for alignemnt */
 }
-.side-body-left{
- background-image: url("./images/body-left.svg");
- background-size: contain;
- visibility: hidden;
-
-
+.side-body-left {
+  background-image: url("./images/body-left.svg");
+  background-size: contain;
+  visibility: hidden;
 }
-.side-body-right{
- background-image: url("./images/body-right.svg");
- background-size: contain;
- visibility: hidden;
- 
-
+.side-body-right {
+  background-image: url("./images/body-right.svg");
+  background-size: contain;
+  visibility: hidden;
 }
-.AboutMe{
-  margin-left:3px ;
+.AboutMe {
+  margin-left: 3px;
   padding: 10px;
 }
 /* 

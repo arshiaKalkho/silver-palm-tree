@@ -11,7 +11,7 @@ export class widget extends Component {
                     
                     <div className="col-sm-2"></div>
                     <h3>Skills</h3>
-                    <div class="skills-div row">
+                    <div class="skills-div row" data-aos="fade-left "data-aos-delay="100">
                         
                         <div className="widget-half-div col-sm-6">
                             
@@ -28,7 +28,7 @@ export class widget extends Component {
                         
                         
                         <h3>Experiences</h3>
-                        <div className="experiences-div">
+                        <div className="experiences-div" data-aos="fade-right "data-aos-delay="100">
                             
                             <Experience/>
                         </div>

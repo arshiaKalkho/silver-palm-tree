@@ -30,7 +30,7 @@ export default class Body extends Component{
                         <div className="summery" data-aos="fade-right">
                             {/* <Summery/> */}
                         </div>
-                        <div data-aos="fade-left "data-aos-delay="500">
+                        <div >
                             <Widget/>
                         </div>
                         <div className="body-footer-spacer"> </div>
