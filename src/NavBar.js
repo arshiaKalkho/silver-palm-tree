@@ -20,7 +20,7 @@ export default class Header extends Component{
                 <Nav>
                     <Nav.Link href="#action1">Home</Nav.Link>
                     <Nav.Link href="#action2">Link</Nav.Link>
-                    </Nav>
+                </Nav>
                     
                 
                 </Navbar.Collapse>
