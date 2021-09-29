@@ -1,28 +1,16 @@
 import React from 'react';
+import Main from "./main";
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-
-import NavBar from './NavBar'
-import Footer from './footer';
-import Body from './Body';
 import "./App.css";
 
 
-function Main() {
+function index() {
   return (
-  <div className="index">
-    
-    <NavBar/> 
-    <Body/>
-    <Footer/>
-    
-  </div>);
+    <Main/>
+  )
 }
 
-
-// const skill = () => { 
-//   return (<article> skill </article>);
-// }
+export default index
 
 ReactDOM.render(<Main />, document.getElementById('root'));

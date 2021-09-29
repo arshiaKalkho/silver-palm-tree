@@ -9,11 +9,6 @@ export class widget extends Component {
         return (
             <div className="widget containter" >
                     
-                    
-                    
-                        
-                       
-                    
                    
                     <div class="row">
                         <div className="skills-div col-sm-8">
