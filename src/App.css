@@ -184,7 +184,7 @@ button:hover {
   
 }
 
-.widget>h3{
+.h3{
   margin:2rem 0rem;
   border-radius: 5px;
   height: 2.5rem;
@@ -195,6 +195,7 @@ button:hover {
 
   background-image: url("./images/main-grey-background.svg");
 }
+
 .experiences-div::-webkit-scrollbar {
   width: 0.5em;
 }
@@ -205,6 +206,7 @@ button:hover {
 background-color: rgb(87, 84, 84);
 outline: 1px solid rgb(112, 144, 114);
 }
+
 .skills-div::-webkit-scrollbar {
   width: 0.5em;
 }
@@ -215,6 +217,8 @@ outline: 1px solid rgb(112, 144, 114);
 background-color: rgb(87, 84, 84);
 outline: 1px solid rgb(112, 144, 114);
 }
+
+
 .summery{
    
   background-color: white;
@@ -226,7 +230,9 @@ outline: 1px solid rgb(112, 144, 114);
   margin-top: 10px;
 }
 .body-row{
-  margin-right: 0;
+  margin: 0;
+  padding: 0px;
+  padding-left: 1vw;
   /* this is needed for alignemnt */
 }
 .side-body-left{

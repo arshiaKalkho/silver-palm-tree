@@ -7,35 +7,45 @@ export class widget extends Component {
     
     render() {
         return (
-            <div className="widget container" >
+            <div className="widget containter" >
                     
-                    <div className="col-sm-2"></div>
-                    <h3>Skills</h3>
-                    <div class="skills-div row">
+                    
+                    
                         
-                        <div className="widget-half-div col-sm-6">
-                            
-                                <Skill id = {1}/>
-                            
+                       
+                    
+                   
+                    <div class="row">
+                        <div className="skills-div col-sm-8">
+                        <h3>Skills</h3>
+                            <div className="widget-half-div ">
+                                
+                                    <Skill id = {1}/>
+                                
+                            </div>
+                            <div className="widget-half-div ">
+                                
+                                    <Skill id = {0}/>
+                                
+                            </div>
                         </div>
-                        <div className="widget-half-div col-sm-6">
+                        
+                    
+                        <div className="col-sm-4">
+                    
+                        <h3>Experiences</h3>
                             
-                                <Skill id = {0}/>
-                            
+                            <div className="experiences-div">
+                                
+                                <Experience/>
+                            </div>
                         </div>
+                
+                    
+                    
+                    
                     </div>
                         
-                        
-                        
-                        <h3>Experiences</h3>
-                        <div className="experiences-div">
-                            
-                            <Experience/>
-                        </div>
-                        
-                        
-                    
-                
             </div>
         )
     }
