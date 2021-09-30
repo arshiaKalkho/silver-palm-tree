@@ -107,42 +107,63 @@ button:hover {
   padding: 9px 50px;
 }
 .cards-title {
-  margin: 5px;
+  
   font-family: "Anton", sans-serif;
 }
-.cards {
-  background-color: rgba(255, 255, 255, 0.2);
+.cards-skill {
+  background-color: rgba(204, 204, 204, 0.8);
   border: 2px;
   border-style: ridge;
-  margin-top: 5px;
+  margin: 5px 5px;
   border-radius: 10px;
+  height: 12vh;
+  width: 12vw;
 }
-.cards:hover {
+.cards-experience{
+  background-color: rgba(204, 204, 204, 0.8);
+  border: 2px;
+  border-style: ridge;
+  margin: 5px 5px;
+  border-radius: 10px;
+
+}
+.cards-skill:hover {
   background-color: rgba(13, 224, 224, 0.2);
 }
 .skills-div {
-  margin-left: 0px;
+  margin: 10px 0px;
+  padding: 0 0 0 2vw;
   border-radius: 10px;
   max-height: 30rem;
-  width: 100%;
-  columns: 2 auto;
+  width:35vw;
   overflow-y: scroll;
+  overflow-x: hidden;
+  
 }
+.widget-large-skill>.each-Widget>.cards-skill{
+  margin-top: 8px;
+  width:60vw;
+  min-height:30rem;
+  background-color: rgba(204, 204, 204, 0.8);
+}
+
 
 .widget > div {
   background-color: rgba(229, 233, 233, 0);
+  
 }
 .widget-half-div {
-  background-color: rgba(229, 233, 233, 0.2);
+  background-color: rgba(229, 233, 233, 0.0);
+  margin:10px -10px;  
 }
 .each-Widget {
-  background-color: rgba(204, 198, 198, 0.6);
+
 }
 
 .experiences-div {
   border-radius: 10px;
   max-height: 30rem;
-  width: 100%;
+  width:60vw;
   overflow-y: scroll;
 }
 

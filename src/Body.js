@@ -21,19 +21,18 @@ export default class Body extends Component{
                     <Slides/>
                 </div>
                 
-                <div className="row body-row">
-                    
-                    <div className="container">
-                        
-                        <div className="summery" data-aos="fade-right">
-                            {/* <Summery/> */}
-                        </div>
-                        <div >
-                            <Widget/>
-                        </div>
-                        <div className="body-footer-spacer"> </div>
-
+                <div className=" body-row">
+         
+                      {/*  
+                    <div className="summery" data-aos="fade-right">
+                         <Summery/> 
+                    </div>*/}
+                    <div >
+                        <Widget/>
                     </div>
+                    <div className="body-footer-spacer"> </div>
+
+                    
         
                 </div>
 
