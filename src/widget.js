@@ -25,7 +25,7 @@ export class widget extends Component {
                    
                         <h3>Skills</h3>
                     
-                        <div className="main row">
+                        <div className="main row" >
                             <div className="skills-div row">
                                 <div className="widget-half-div col-sm-6">
                                     
