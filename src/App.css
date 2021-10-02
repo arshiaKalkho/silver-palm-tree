@@ -39,7 +39,7 @@ a.nav-link {
   background-position: center;
   background-attachment: fixed;
 }
-.main{
+.main {
   margin-right: 0px;
 }
 
@@ -110,8 +110,10 @@ button:hover {
   padding: 9px 50px;
 }
 .cards-title {
-  
   font-family: "Anton", sans-serif;
+}
+.card-body {
+  pointer-events: "none";
 }
 .cards-skill {
   background-color: rgba(204, 204, 204, 0.8);
@@ -122,13 +124,12 @@ button:hover {
   height: 12vh;
   width: 12vw;
 }
-.cards-experience{
+.cards-experience {
   background-color: rgba(204, 204, 204, 0.8);
   border: 2px;
   border-style: ridge;
   margin: 5px 5px;
   border-radius: 10px;
-
 }
 .cards-skill:hover {
   background-color: rgba(13, 224, 224, 0.2);
@@ -138,42 +139,36 @@ button:hover {
   padding: 0 0 0 2vw;
   border-radius: 10px;
   max-height: 30rem;
-  width:35vw;
+  width: 35vw;
   overflow-y: scroll;
   overflow-x: hidden;
-  
 }
-.widget-large-skill>.each-Widget>.cards-skill{
+.widget-large-skill > .each-Widget > .cards-skill {
   margin-top: 8px;
-  width:60vw;
-  min-height:30rem;
+  width: 60vw;
+  min-height: 30rem;
   background-color: rgba(204, 204, 204, 0.8);
 }
 
-
 .widget > div {
   background-color: rgba(229, 233, 233, 0);
-  
 }
 .widget-half-div {
-  background-color: rgba(229, 233, 233, 0.0);
-    /* make a function in skill div that calls the setstate from parent  */
-
+  background-color: rgba(229, 233, 233, 0);
+  /* make a function in skill div that calls the setstate from parent  */
 }
 .each-Widget {
-
 }
 
 .experiences-div {
   border-radius: 10px;
   max-height: 30rem;
-  width:60vw;
+  width: 60vw;
   overflow-y: scroll;
 }
 
-
-.h3{
-  margin:2rem 0rem;
+.h3 {
+  margin: 2rem 0rem;
 }
 .widget > h3 {
   margin: 2rem 0rem;
@@ -189,7 +184,6 @@ button:hover {
 
 ::-webkit-scrollbar {
   width: 0.5em;
- 
 }
 ::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 1px rgba(0, 0, 0, 1);
@@ -201,7 +195,6 @@ button:hover {
   border-radius: 100vw;
 }
 
-
 .summery {
   background-color: white;
   border-radius: 10px;
@@ -210,7 +203,7 @@ button:hover {
 .summery-text {
   margin-top: 10px;
 }
-.body-row{
+.body-row {
   margin: 0;
   padding: 0px;
   padding-left: 1vw;

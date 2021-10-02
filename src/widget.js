@@ -12,142 +12,116 @@ export class widget extends Component {
 
     constructor(props){
         super();
-        this.clicked = this.clicked.bind(this);
+        this.hadnleClick = this.hadnleClick.bind(this);
         this.state = {id:1};
     }
-    clicked(ID) {
+    hadnleClick(ID) {
+        console.log("state updated to :", ID)
         this.setState({id : ID});
+
     };
     
     render() {
 
+       
 
 
-        const row1 = skills.map((data)=>{
-            
-            if(data.id){
-            return(
-                <Skill skill = {data}/>
-                
-            );
-        }else{
-                return "";
-            }
-        })
-
-
-
-        const row2 = skills.map((data)=>{
-            
-            if(data.id%2===this.row || data.id===this.id){
-            return(
-                <Skill skill = {data}/>
-                
-            );
-        }else{
-                return "";
-            }
-        })
+        
+        
+        
 
 
 
         return (
             <div className="widget" >
                     
-                   
-                        <h3>Skills</h3>
+            <h3>Skills</h3>
+        
+                <div className="main row" >
+                    <div className="skills-div row">
+                        
+
                     
-                        <div className="main row" >
-                            <div className="skills-div row">
-                                
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                                <div className="widget-half-div col-sm-6">
-                                    
-                                {row1}
+                    
+                        <div className="widget-half-div col-sm-6">
+        
+                                            {skills.map((data)=>{
+                                                
+                                                if(data.id%2===1){
+                                                    
+                                                    return(
+                                                        <Skill skill = {data} handler={this.hadnleClick}/>)
+                                            
                                         
-                                    
-                                </div>
+                                    }else{
+                                        return "";
+                                        }
+                                    })}
                                 
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                <div className="widget-half-div col-sm-6">
-                                    
-                                {row2}
-                                    
-                                </div>
-                            
-                            
-                            
-                            
-                            
-                            
-                            </div>
+                                  
+                        </div>
+                        
 
+                        
+                        <div className="widget-half-div col-sm-6">
+                            
+                                { 
 
-
-
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            <div className="widget-large-skill col-sm-6">
-                                
-                                    <Skill id = {this.state.id} clicked = {this.clicked}/>
-                                
-                            </div>
+                                    skills.map((data)=>{
+                                        
+                                        if(data.id%2 === 0){
+                                            return(<Skill skill = {data} handler={this.hadnleClick}/>)
+                                    }else{
+                                            return "";
+                                        }
+                                    })
+                                    }
                             
                         </div>
 
-                        
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            <h3>Experiences</h3>
                     
-                        <div >
+                    </div>
+
+
                     
+                    
+                    <div className="widget-large-skill col-sm-6">
                         
-                            
-                            <div className="experiences-div">
-                                <Experience/>
-                            </div>
-                        </div>
+                            <Skill 
+                            handler={this.hadnleClick}
+
+                            skill = {
+                            skills.map((data)=>{
+                                
+                                if(data.id === this.state.id)
+                                    {console.log("should show",data);
+                                    return data}
+                                }
+                            )}/>
+                        
+                    </div>
+                    
+                </div>
+
+            
                 
+                
+
+                
+                <h3>Experiences</h3>
+        
+            <div >
+        
+            
+                
+                <div className="experiences-div">
+                    <Experience/>
+                </div>
+            </div>
+    
                     
                     
                     
-                   
                         
             </div>
         )
