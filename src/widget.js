@@ -16,7 +16,7 @@ export class widget extends Component {
         this.state = {id:1};
     }
     hadnleClick(ID) {
-        console.log("state updated to :", ID)
+        // console.log("state updated to :", ID)
         this.setState({id : ID});
 
     };
@@ -92,7 +92,7 @@ export class widget extends Component {
                             {
                             skills.map((data)=>{
                                 if(data.id == this.state.id){
-                                    console.log("should show",data.id );
+                                    // console.log("should show",data.id );
                                     return ( <Skill handler={this.hadnleClick}skill = {data} />)}
                                 }
                             )}

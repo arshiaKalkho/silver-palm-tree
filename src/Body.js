@@ -12,7 +12,7 @@ import Summery from './Summery';
 export default class Body extends Component{
     
     render(){
-
+        alert("website is't completed yet and is begin worked on");
         return(
             <div className="body">
                 
