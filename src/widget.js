@@ -93,8 +93,8 @@ export class widget extends Component {
                             skill = {
                             skills.map((data)=>{
                                 
-                                if(data.id === this.state.id)
-                                    {console.log("should show",data);
+                                if(data.id == this.state.id){
+                                    console.log("should show",data.id , this.state.id);
                                     return data}
                                 }
                             )}/>
