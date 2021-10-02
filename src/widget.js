@@ -58,7 +58,7 @@ export class widget extends Component {
                                         }
                                     })}
                                 
-                                  
+
                         </div>
                         
 
@@ -87,17 +87,15 @@ export class widget extends Component {
                     
                     <div className="widget-large-skill col-sm-6">
                         
-                            <Skill 
-                            handler={this.hadnleClick}
+                            
 
-                            skill = {
+                            {
                             skills.map((data)=>{
-                                
                                 if(data.id == this.state.id){
-                                    console.log("should show",data.id , this.state.id);
-                                    return data}
+                                    console.log("should show",data.id );
+                                    return ( <Skill handler={this.hadnleClick}skill = {data} />)}
                                 }
-                            )}/>
+                            )}
                         
                     </div>
                     
