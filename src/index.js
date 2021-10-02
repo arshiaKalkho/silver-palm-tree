@@ -6,7 +6,7 @@ import "./App.css";
 
 
 function index() {
-  alert("website is't completed yet and is begin worked on");
+  
   return (
     <Main/>
   )
