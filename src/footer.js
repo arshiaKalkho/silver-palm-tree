@@ -7,7 +7,7 @@ import ScrollTo from "./ScrollTo";
     render() {
    
         return(
-            <div className = "footer container-fluid bg-light ">
+            <div className = "footer container-fluid bg-dark ">
                 
                     
                     <div className="row">

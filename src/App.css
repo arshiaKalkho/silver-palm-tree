@@ -24,7 +24,7 @@ html {
   z-index: 999;
   background-color: var(--bg-primary);
   transition: width 600ms ease;
-  overflow: scroll;
+  overflow: hidden;
 }
 
 .navbar-nav {
@@ -121,17 +121,7 @@ html {
   display: none;
 }
 
-.dark #darkIcon {
-  display: block;
-}
 
-.light #lightIcon {
-  display: block;
-}
-
-.solar #solarIcon {
-  display: block;
-}
 
 .body {
   margin-left: 5rem;
@@ -160,13 +150,14 @@ html {
 
 .footer {
   position: relative;
+  margin-bottom: 0vw;
   left: 0;
   bottom: 0;
   right: 0;
 }
 .footer div {
   text-align: center;
-  background-color: darkgray;
+  background-color: #23232e;
 }
 a {
   text-decoration: none;
@@ -244,7 +235,7 @@ button:hover {
 }
 .widget-large-skill > .each-Widget > .cards-skill {
   margin-top: 8px;
-  width: 55vw;
+  width: 60vw;
   height: 30rem;
   background-color: rgba(204, 204, 204, 0.8);
 }
