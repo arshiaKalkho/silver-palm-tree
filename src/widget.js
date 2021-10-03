@@ -43,7 +43,7 @@ export class widget extends Component {
 
                     
                     
-                        <div className="widget-half-div col-sm-6">
+                        <div className="widget-half-div col-6" data-aos="fade-left" data-aos-duration="1000">
         
                                             {skills.map((data)=>{
                                                 
@@ -63,7 +63,7 @@ export class widget extends Component {
                         
 
                         
-                        <div className="widget-half-div col-sm-6">
+                        <div className="widget-half-div col-6" data-aos="fade-right" data-aos-duration="1000">
                             
                                 { 
 
@@ -85,7 +85,7 @@ export class widget extends Component {
 
                     
                     
-                    <div className="widget-large-skill col-sm-6">
+                    <div className="widget-large-skill col-6" data-aos="flip-left">
                         
                             
 
@@ -93,7 +93,7 @@ export class widget extends Component {
                             skills.map((data)=>{
                                 if(data.id == this.state.id){
                                     // console.log("should show",data.id );
-                                    return ( <Skill handler={this.hadnleClick}skill = {data} />)}
+                                    return ( <Skill  sum ={data.sum} handler={this.hadnleClick}skill = {data} />)}
                                 }
                             )}
                         
@@ -112,7 +112,7 @@ export class widget extends Component {
         
             
                 
-                <div className="experiences-div">
+                <div className="experiences-div"  data-aos="flip-down">
                     <Experience/>
                 </div>
             </div>
