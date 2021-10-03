@@ -16,7 +16,7 @@ export class widget extends Component {
         this.state = {id:1};
     }
     hadnleClick(ID) {
-        console.log("state updated to :", ID)
+        // console.log("state updated to :", ID)
         this.setState({id : ID});
 
     };
@@ -43,7 +43,7 @@ export class widget extends Component {
 
                     
                     
-                        <div className="widget-half-div col-sm-6">
+                        <div className="widget-half-div col-6" data-aos="fade-left" data-aos-duration="1000">
         
                                             {skills.map((data)=>{
                                                 
@@ -58,12 +58,12 @@ export class widget extends Component {
                                         }
                                     })}
                                 
-                                  
+
                         </div>
                         
 
                         
-                        <div className="widget-half-div col-sm-6">
+                        <div className="widget-half-div col-6" data-aos="fade-right" data-aos-duration="1000">
                             
                                 { 
 
@@ -85,19 +85,17 @@ export class widget extends Component {
 
                     
                     
-                    <div className="widget-large-skill col-sm-6">
+                    <div className="widget-large-skill col-6" data-aos="flip-left">
                         
-                            <Skill 
-                            handler={this.hadnleClick}
+                            
 
-                            skill = {
+                            {
                             skills.map((data)=>{
-                                
                                 if(data.id == this.state.id){
-                                    console.log("should show",data.id , this.state.id);
-                                    return data}
+                                    // console.log("should show",data.id );
+                                    return ( <Skill  sum ={data.sum} handler={this.hadnleClick}skill = {data} />)}
                                 }
-                            )}/>
+                            )}
                         
                     </div>
                     
@@ -114,7 +112,7 @@ export class widget extends Component {
         
             
                 
-                <div className="experiences-div">
+                <div className="experiences-div"  data-aos="flip-down">
                     <Experience/>
                 </div>
             </div>

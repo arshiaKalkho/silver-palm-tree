@@ -9,7 +9,8 @@ export class skill extends Component{
     constructor(props){
     super(props);
     this.data = props.skill;
-    this.id = props.skill.id;
+    this.myid = props.skill.id;
+    this.sum = props.sum;
     
     
     }
@@ -18,11 +19,11 @@ export class skill extends Component{
     
     
     render(){
-        
+       
         
         
         return(
-        <div className="each-Widget" onClick={()=>this.props.handler(this.id)} >
+        <div className="each-Widget" onClick={()=>this.props.handler(this.myid)} >
                 
                 <Card id={this.data.id} key={this.data.id} className="cards-skill">
                     <Card.Title className="cards-skill-title">
@@ -32,6 +33,8 @@ export class skill extends Component{
                     
                     <Card.Body className="cards-skill-body" >
                         {this.data.name}
+                        <br/>
+                        { this.sum}
                     </Card.Body>
                 </Card>
         
