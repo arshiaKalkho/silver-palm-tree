@@ -330,30 +330,26 @@ button:hover {
   padding: 10px;
 }
 
-@media (max-width: 700px) {
-  .widget-large-skill {
-    height: 15vh;
+/* Small screens */
+@media only screen and (max-width: 700px) {
+  .body {
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+  .experiences-div {
+    margin-left: 5px;
+    width: 94vw;
   }
   .widget-large-skill > .each-Widget > .cards-skill {
-    max-height: 45vh;
-    max-width: 55vw;
-  }
-  .widget-half-div {
-    margin: px;
+    height: 45vh;
+    width: 60vw;
   }
 
   .cards-skill {
     margin: 5px 10px;
     border-radius: 10px;
     height: 7vh;
-    width: 12vw;
-  }
-}
-/* Small screens */
-@media only screen and (max-width: 600px) {
-  .body {
-    margin-left: 0px;
-    padding-left: 0px;
+    width: 10vw;
   }
   .email {
     visibility: hidden;
@@ -384,7 +380,7 @@ button:hover {
 }
 
 /* Large screens */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 700px) {
   .navbar {
     top: 0;
     width: 5rem;
