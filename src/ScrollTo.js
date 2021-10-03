@@ -18,11 +18,11 @@ export default function ScrollTo(props) {
  
 
   return (
-    <div className="scroll-to-top">
+    
       
-        <button className="btn" onClick={scrollTo}>
+        <button  onClick={scrollTo}>
          {text}
         </button>
-    </div>
+    
   );
 }

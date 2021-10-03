@@ -35,7 +35,7 @@ export class widget extends Component {
         return (
             <div className="widget" >
                     
-            <h3>Skills</h3>
+            <h3 className="h3-headers">Skills</h3>
         
                 <div className="main row" >
                     <div className="skills-div row">
@@ -106,7 +106,7 @@ export class widget extends Component {
                 
 
                 
-                <h3>Experiences</h3>
+                <h3 className="h3-headers">Experiences</h3>
         
             <div >
         

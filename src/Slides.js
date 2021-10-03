@@ -1,5 +1,5 @@
 import React from "react";
-
+import WebsiteInfo from "./websiteInfo";
 
 function Slides() {
 
@@ -18,34 +18,32 @@ function Slides() {
             <div class="slide1 carousel-item active">
                 
                 <div class="carousel-caption">
-                <h5>Welcome</h5>
-                <p>Some representative placeholder content for the first slide.</p>
+                <h1>Welcome</h1>
+                <p>This is my personal portfolio website</p>
                 </div>
             </div>
             <div class="slide2 carousel-item">
+                
                 <div class="carousel-caption">
-                <h5>How I made this website</h5>
-                <p>Some representative placeholder content for the second slide.</p>
+                   
+                    <h1>The building blocks</h1>
                 </div>
             </div>
             <div class="slide3 carousel-item">
                 
                 <div class="carousel-caption">
                     <div>
-                    <h1>hellow world</h1>
+                    <h1>This website was created using React</h1>
                 </div>
-                <h5>i look forward to work with you</h5>
-                <p>Some representative placeholder content for the third slide.</p>
                 </div>
             </div>
             <div class="slide4 carousel-item">
                 
                 <div class="carousel-caption">
                     <div>
-                    <h1>hellow world</h1>
+                    <h1>Feel free to contact me</h1>
                 </div>
                 <h5>i look forward to work with you</h5>
-                <p>Some representative placeholder content for the third slide.</p>
                 </div>
             </div>
             </div>

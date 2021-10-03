@@ -121,8 +121,6 @@ html {
   display: none;
 }
 
-
-
 .body {
   margin-left: 5rem;
   background-image: url("./images/body-background.jpg");
@@ -150,46 +148,43 @@ html {
 
 .footer {
   position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #23232e;
   margin-bottom: 0vw;
   left: 0;
   bottom: 0;
   right: 0;
 }
-.footer div {
-  text-align: center;
-  background-color: #23232e;
-}
+
 a {
   text-decoration: none;
-  border-radius: 5px;
-}
-/* .nav-item > a:hover {
-  background-color: rgba(13, 224, 224, 0.2);
+  border-radius: 10px;
 }
 
-.nav-item .navbar-toggler-icon {
-  margin-right: 10px;
-} */
-
-button:hover {
-  background-color: rgba(52, 226, 36, 0.1);
+.footer > button {
+  background-color: #23232e;
+  margin: 2px;
+  border: 0px;
+  border-radius: 10px;
+  font-family: "Anton", sans-serif;
+  color: var(--text-secondary);
 }
 
 .root {
   height: 100%;
 }
 
-.myName {
-  padding: 4px;
-  margin: 0px 10px;
-  font-family: "Anton", sans-serif;
+.slide-show {
 }
 
 .slide1 {
   background-image: url("./images/personal-portfolio.jpg");
+  font-family: "Anton", sans-serif;
 }
+
 .slide2 {
-  background-image: url("");
+  margin-top: 5vh;
 }
 
 .slide3 {
@@ -198,6 +193,107 @@ button:hover {
 .slide4 {
   background-image: url("./images/second-slide-image.jpg");
 }
+
+.websiteinfo-div {
+  margin-top: 5vw;
+}
+
+.website-info {
+  height: 80vh;
+  width: 80vw;
+  margin-left: 5vw;
+
+  display: grid;
+  gap: 0.5rem;
+
+  grid-template-areas:
+    "a  b  c  d"
+    "a  🌟 🌟 e"
+    "k  🌟 🌟 g"
+    "j  i  h  g";
+
+  grid-template-rows: repeat(4, 25%);
+  grid-template-columns: repeat(4, 25%);
+
+  --stagger-delay: 200ms;
+}
+/* entry animation */
+@keyframes cardEntrance {
+  from {
+    opacity: 0;
+    transform: scale(0.3);
+    filter: hue-rotate(180deg);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+    filter: hue-rotate(0deg);
+  }
+}
+.website-info-cards {
+  animation: cardEntrance 700ms ease-out;
+  animation-fill-mode: backwards;
+  opacity: 1;
+  border-radius: 10px;
+}
+.info-card-1 {
+  grid-area: a;
+  background-color: rgba(204, 204, 204, 0.8);
+  animation-delay: calc(1 * var(--stagger-delay));
+}
+.info-card-2 {
+  grid-area: b;
+  background-color: rgba(204, 204, 204, 0.8);
+  animation-delay: calc(2 * var(--stagger-delay));
+}
+.info-card-3 {
+  grid-area: c;
+  background-color: rgba(204, 204, 204, 0.8);
+  animation-delay: calc(3 * var(--stagger-delay));
+}
+.info-card-4 {
+  grid-area: d;
+  background-color: rgba(204, 204, 204, 0.8);
+  animation-delay: calc(4 * var(--stagger-delay));
+}
+.info-card-5 {
+  grid-area: e;
+  background-color: rgba(204, 204, 204, 0.8);
+  animation-delay: calc(5 * var(--stagger-delay));
+}
+
+.info-card-7 {
+  grid-area: g;
+  background-color: rgba(204, 204, 204, 0.8);
+  animation-delay: calc(7 * var(--stagger-delay));
+}
+.info-card-8 {
+  grid-area: h;
+  background-color: rgba(204, 204, 204, 0.8);
+  animation-delay: calc(8 * var(--stagger-delay));
+}
+.info-card-9 {
+  grid-area: i;
+  background-color: rgba(204, 204, 204, 0.8);
+  animation-delay: calc(8 * var(--stagger-delay));
+}
+.info-card-10 {
+  grid-area: j;
+  background-color: rgba(204, 204, 204, 0.8);
+  animation-delay: calc(8 * var(--stagger-delay));
+}
+.info-card-11 {
+  grid-area: k;
+  background-color: rgba(204, 204, 204, 0.8);
+  animation-delay: calc(8 * var(--stagger-delay));
+}
+.info-card-12 {
+  grid-area: 🌟;
+  background-color: rgba(204, 204, 204, 0.8);
+
+  animation-delay: calc(9 * var(--stagger-delay));
+}
+
 .links {
   padding: 9px 50px;
 }
@@ -266,7 +362,7 @@ button:hover {
 .h3 {
   margin: 2rem 0rem;
 }
-.widget > h3 {
+.h3-headers {
   margin: 2rem 0rem;
   border-radius: 5px;
   height: 2.5rem;
@@ -292,12 +388,14 @@ button:hover {
 }
 
 .summery {
-  background-color: white;
+  background-color: rgba(204, 204, 204, 0.8);
   border-radius: 10px;
-  word-break: break-all;
+  width: 90vw;
+  margin: 2vw;
 }
 .summery-text {
-  margin-top: 10px;
+  margin: 10px;
+  word-wrap: break-word;
 }
 .body-row {
   margin: 0;
@@ -315,10 +413,6 @@ button:hover {
   background-image: url("./images/body-right.svg");
   background-size: contain;
   visibility: hidden;
-}
-.AboutMe {
-  margin-left: 3px;
-  padding: 10px;
 }
 
 /* Small screens */
