@@ -24,7 +24,7 @@ export class skill extends Component{
         return(
         <div className="each-Widget" onClick={()=>this.props.handler(this.id)} >
                 
-                <Card id={this.data.id} className="cards-skill">
+                <Card id={this.data.id} key={this.data.id} className="cards-skill">
                     <Card.Title className="cards-skill-title">
                     <h2>{this.data.id}</h2>
                         
