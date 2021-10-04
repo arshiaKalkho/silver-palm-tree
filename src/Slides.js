@@ -1,6 +1,5 @@
 import React from "react";
-import WebsiteInfo from "./websiteInfo";
-
+import WebsiteInfo from './websiteInfo';
 function Slides() {
 
 
@@ -23,9 +22,13 @@ function Slides() {
                 </div>
             </div>
             <div class="slide2 carousel-item">
+                 <div className="websiteinfo-div">
                 
+                    <WebsiteInfo/>
+                </div>
                 <div class="carousel-caption">
-                   
+
+               
                     <h1>The building blocks</h1>
                 </div>
             </div>
