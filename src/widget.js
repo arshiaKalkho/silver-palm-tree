@@ -93,7 +93,7 @@ export class widget extends Component {
                             skills.map((data)=>{
                                 if(data.id == this.state.id){
                                     // console.log("should show",data.id );
-                                    return ( <Skill  sum ={data.sum} handler={this.hadnleClick}skill = {data} />)}
+                                    return ( <Skill isxl={true} handler={this.hadnleClick}skill = {data} />)}
                                 }
                             )}
                         

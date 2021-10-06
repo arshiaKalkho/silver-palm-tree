@@ -2,62 +2,67 @@
     {
     "id": 1,
     "name": "first"
-    ,"sum" : "this is summery"
+    ,"summary" : "this is summery 1",
+    "img":"./images/logos/react-logo.svg"
+
     },
     {
     "id": 2,
     "name": "first"
-    ,"sum" : "this is summery"
+    ,"summary" : "this is summery 2",
+    "img":"./images/logos/react-logo.svg"
     },
     {
     "id": 3,
     "name": "first"
-    ,"sum" : "this is summery"
+    ,"summary" : "this is summery 3",
+    "img":"./images/logos/html5-logo.svg"
     },
     {
     "id": 4,
     "name": "first"
-    ,"sum" : "this is summery"
+    ,"summary" : "this is summery",
+    "img":"./images/logos/css-logo.svg"
     },
     {
     "id": 5,
     "name": "first"
-    ,"sum" : "this is summery"
+    ,"summary" : "this is summery"
     },
     {
     "id": 6,
     "name": "first"
-    ,"sum" : "this is summery"
+    ,"summary" : "this is summery"
     },
     {
     "id": 7,
     "name": "first"
-    ,"sum" : "this is summery"
+    ,"summary" : "this is summery"
     },
     {
     "id": 8,
     "name": "first"
-    ,"sum" : "this is summery"
+    ,"summary" : "this is summery"
     },
     {
     "id": 9,
     "name": "first"
-    ,"sum" : "this is summery"
+    ,"summary" : "this is summery"
     },
     {
     "id": 10,
     "name": "first"
-    ,"sum" : "this is summery"
+    ,"summary" : "this is summery"
     },
     {
     "id": 11,
     "name": "first"
-    ,"sum" : "this is summery"
+    ,"summary" : "this is summery"
     },
     {
     "id": 12,
     "name": "first"
-    ,"sum" : "this is summery"
+    ,"summary" : "this is summery"
     }
 
 

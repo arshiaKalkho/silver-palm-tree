@@ -10,7 +10,8 @@ export class skill extends Component{
     super(props);
     this.data = props.skill;
     this.myid = props.skill.id;
-    this.sum = props.sum;
+    this.sum = props.skill.summary;
+    this.imgsrc = props.skill.img;
     
     
     }
@@ -25,18 +26,18 @@ export class skill extends Component{
         return(
         <div className="each-Widget" onClick={()=>this.props.handler(this.myid)} >
                 
-                <Card id={this.data.id} key={this.data.id} className="cards-skill">
-                    <Card.Title className="cards-skill-title">
-                    <h2>{this.data.id}</h2>
-                        
-                    </Card.Title>
+            <Card  key={this.data.id} id={this.myid}  className="cards-skill">
+                <Card.Title className="cards-skill-title">
+                    {this.data.name}
                     
-                    <Card.Body className="cards-skill-body" >
-                        {this.data.name}
-                        <br/>
-                        { this.sum}
-                    </Card.Body>
-                </Card>
+                </Card.Title>
+                
+                <Card.Body className="cards-skill-body" >
+                
+                {()=>{if(this.props.isxl===true)return this.sum}}
+                    
+                </Card.Body>
+            </Card>
         
         </div>
             )

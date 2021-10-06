@@ -329,13 +329,21 @@ a {
 }
 
 .cards-skill {
-  background-color: rgba(204, 204, 204, 0.8);
+  background-color: rgba(41, 40, 40, 0.8);
   border: 2px;
   border-style: ridge;
   margin: 5px 5px;
   border-radius: 10px;
   height: 12vh;
   width: 12vw;
+}
+
+#\31>.cards-skill-body {
+  
+  margin-top: -5px;
+  background-image: url("./images/logos/react-logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 .cards-experience {
   background-color: rgba(204, 204, 204, 0.8);
@@ -358,9 +366,9 @@ a {
 }
 .widget-large-skill > .each-Widget > .cards-skill {
   margin-top: 8px;
-  width: 60vw;
+  width: 56vw;
   height: 30rem;
-  background-color: rgba(204, 204, 204, 0.8);
+  background-color: rgba(20, 20, 20, 0.8);
 }
 .widget-large-skill {
   max-height: 20vh;
