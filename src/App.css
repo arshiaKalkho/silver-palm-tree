@@ -329,19 +329,49 @@ a {
 }
 
 .cards-skill {
-  background-color: rgba(41, 40, 40, 0.8);
+  background-color: rgba(251, 251, 251, 0.5);
   border: 2px;
   border-style: ridge;
+  padding: 1rem;
   margin: 5px 5px;
   border-radius: 10px;
   height: 12vh;
   width: 12vw;
 }
 
-#\31>.cards-skill-body {
-  
+#\31 > .cards-skill-body {
   margin-top: -5px;
   background-image: url("./images/logos/react-logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#\32 > .cards-skill-body {
+  margin-top: -5px;
+  background-image: url("./images/logos/nodejs-logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#\33 > .cards-skill-body {
+  margin-top: -5px;
+  background-image: url("./images/logos/javascript-logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#\34 > .cards-skill-body {
+  margin-top: -5px;
+  background-image: url("./images/logos/c++-logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#\35 > .cards-skill-body {
+  margin-top: -5px;
+  background-image: url("./images/logos/html5-logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#\36 > .cards-skill-body {
+  margin-top: -5px;
+  background-image: url("./images/logos/css-logo.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -353,7 +383,7 @@ a {
   border-radius: 10px;
 }
 .cards-skill:hover {
-  background-color: rgba(13, 224, 224, 0.2);
+  background-color: rgba(206, 206, 206, 0.9);
 }
 .skills-div {
   margin: 10px 0px;
@@ -367,8 +397,11 @@ a {
 .widget-large-skill > .each-Widget > .cards-skill {
   margin-top: 8px;
   width: 56vw;
-  height: 30rem;
-  background-color: rgba(20, 20, 20, 0.8);
+  height: 60vh;
+
+  max-height: 30rem;
+
+  overflow-x: hidden;
 }
 .widget-large-skill {
   max-height: 20vh;
@@ -538,3 +571,15 @@ a {
     min-height: 90vh;
   }
 }
+/* large displays
+@media (min-height: 900px) {
+  .widget-large-skill > .each-Widget > .cards-skill {
+    max-height: 45vh;
+  }
+}
+
+@media (min-height: 1500px) {
+  .widget-large-skill > .each-Widget > .cards-skill {
+    max-height: 30vh;
+  }
+} */
