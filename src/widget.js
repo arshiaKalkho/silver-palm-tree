@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Skill from './skill';
 import Experience from './Experience';
 import skills from "./data/skills.json";
+import SkillSummery from './skillSummery';
 
 
 
@@ -37,7 +38,7 @@ export class widget extends Component {
                     
             <h3 className="h3-headers">Skills</h3>
         
-                <div className="main row" >
+                <div className="main-row" >
                     <div className="skills-div row">
                         
 
@@ -63,7 +64,7 @@ export class widget extends Component {
                         
 
                         
-                        <div className="widget-half-div col-6" data-aos="fade-right" data-aos-duration="1000">
+                        <div className="widget-half-div col-5" data-aos="fade-right" data-aos-duration="1000">
                             
                                 { 
 
@@ -84,21 +85,32 @@ export class widget extends Component {
 
 
                     
-                    
-                    <div className="widget-large-skill col-6" data-aos="flip-left">
-                        
+                    <div className="large-skill-summery-flex">
+                        <div className="widget-large-skill" data-aos="flip-left">
                             
+                                
 
-                            {
-                            skills.map((data)=>{
-                                if(data.id == this.state.id){
-                                    // console.log("should show",data.id );
-                                    return ( <Skill isxl={true} handler={this.hadnleClick}skill = {data} />)}
-                                }
-                            )}
-                        
+                                {
+                                skills.map((data)=>{
+                                    if(data.id == this.state.id){
+                                        return ( <Skill isxl={true} handler={this.hadnleClick}skill = {data} />)}
+                                    }
+                                )}
+                            
+                        </div>
+                            
+                        <div className="skill-summery " data-aos="flip-right">
+                                    {
+                                    skills.map((data)=>{
+                                        if(data.id == this.state.id){
+                                            //console.log("should show",data.summery);
+                                            return ( <SkillSummery skill = {data}/>)}
+                                        }
+                                    )}
+                                        
+
+                        </div>
                     </div>
-                    
                 </div>
 
             

@@ -328,12 +328,16 @@ a {
   font-family: "Anton", sans-serif;
 }
 
+.main-row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .cards-skill {
   background-color: rgba(251, 251, 251, 0.5);
   border: 2px;
-  border-style: ridge;
-  padding: 1rem;
-  margin: 5px 5px;
+  border-style: outset;
+  margin-top: 2px;
   border-radius: 10px;
   height: 12vh;
   width: 12vw;
@@ -343,38 +347,45 @@ a {
   margin-top: -5px;
   background-image: url("./images/logos/react-logo.svg");
   background-size: contain;
+  background-position: center;
   background-repeat: no-repeat;
 }
 #\32 > .cards-skill-body {
   margin-top: -5px;
   background-image: url("./images/logos/nodejs-logo.svg");
   background-size: contain;
+  background-position: center;
   background-repeat: no-repeat;
 }
 #\33 > .cards-skill-body {
   margin-top: -5px;
   background-image: url("./images/logos/javascript-logo.svg");
   background-size: contain;
+  background-position: center;
   background-repeat: no-repeat;
 }
 #\34 > .cards-skill-body {
   margin-top: -5px;
   background-image: url("./images/logos/c++-logo.svg");
   background-size: contain;
+  background-position: center;
   background-repeat: no-repeat;
 }
 #\35 > .cards-skill-body {
   margin-top: -5px;
   background-image: url("./images/logos/html5-logo.svg");
   background-size: contain;
+  background-position: center;
   background-repeat: no-repeat;
 }
 #\36 > .cards-skill-body {
   margin-top: -5px;
   background-image: url("./images/logos/css-logo.svg");
   background-size: contain;
+  background-position: center;
   background-repeat: no-repeat;
 }
+
 .cards-experience {
   background-color: rgba(204, 204, 204, 0.8);
   border: 2px;
@@ -394,9 +405,13 @@ a {
   overflow-y: scroll;
   overflow-x: hidden;
 }
+.large-skill-summery-flex {
+  display: flex;
+  justify-content: space-evenly;
+}
 .widget-large-skill > .each-Widget > .cards-skill {
   margin-top: 8px;
-  width: 56vw;
+  width: 30vw;
   height: 60vh;
 
   max-height: 30rem;
@@ -404,8 +419,8 @@ a {
   overflow-x: hidden;
 }
 .widget-large-skill {
-  max-height: 20vh;
-  max-width: 30vw;
+  width: 30vw;
+  height: 60vh;
 }
 
 .widget > div {
@@ -413,10 +428,21 @@ a {
 }
 .widget-half-div {
   background-color: rgba(229, 233, 233, 0);
-  margin: auto -5px;
+  margin: -5px;
   min-height: 20vh;
 }
-.each-Widget {
+.skill-summery {
+  background-color: greenyellow;
+  margin-top: 8px;
+  margin-left: 0px;
+  border-radius: 10px;
+
+  width: 30vw;
+  height: 60vh;
+
+  max-height: 30rem;
+
+  overflow-x: hidden;
 }
 
 .experiences-div {
@@ -483,18 +509,34 @@ a {
 }
 
 /* Small screens */
+
 @media only screen and (max-width: 700px) {
   .body {
     margin-left: 0px;
     padding-left: 0px;
   }
+  .large-skill-summery-flex {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .skill-summery {
+    height: 25vh;
+  }
   .experiences-div {
     margin-left: 5px;
     width: 94vw;
   }
+  .widget-half-div {
+    margin-left: -5px;
+    padding-left: 0px;
+  }
+  .widget-large-skill {
+    height: 25vh;
+    width: 40vw;
+  }
   .widget-large-skill > .each-Widget > .cards-skill {
-    height: 45vh;
-    width: 60vw;
+    height: 25vh;
+    width: 40vw;
   }
 
   .cards-skill {
@@ -503,9 +545,7 @@ a {
     height: 7vh;
     width: 10vw;
   }
-  .email {
-    visibility: hidden;
-  }
+
   .navbar {
     bottom: 0;
     width: 100vw;
@@ -571,15 +611,3 @@ a {
     min-height: 90vh;
   }
 }
-/* large displays
-@media (min-height: 900px) {
-  .widget-large-skill > .each-Widget > .cards-skill {
-    max-height: 45vh;
-  }
-}
-
-@media (min-height: 1500px) {
-  .widget-large-skill > .each-Widget > .cards-skill {
-    max-height: 30vh;
-  }
-} */
