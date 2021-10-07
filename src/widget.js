@@ -3,7 +3,7 @@ import Skill from './skill';
 import Experience from './Experience';
 import skills from "./data/skills.json";
 import SkillSummery from './skillSummery';
-
+import experiences from "./data/experiences.json";
 
 
 
@@ -125,7 +125,14 @@ export class widget extends Component {
             
                 
                 <div className="experiences-div"  data-aos="flip-down">
-                    <Experience/>
+                    <div className="each-Widget">
+                            {experiences.map( (data)=>{       
+  
+                                return(<Experience experience = {data} />)
+
+                            })
+                        }
+                    </div>
                 </div>
             </div>
     

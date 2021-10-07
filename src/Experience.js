@@ -1,15 +1,18 @@
-import React from "react";
-import { Card, Accordion,Collapse } from "react-bootstrap";
-import experiences from "./data/experiences.json";
+import React,{useState} from "react";
+
+import { Collapse, Button, CardBody, Card,CardTitle,CardHeader } from 'reactstrap';
 
 
 
-function Experience() {
+
+function Experience(props) {
+    const data = props.experience;
     
-
+    const[isOpen,toggleOpen] = useState(false);
     
+    const toggle = ()=>{toggleOpen(!isOpen)};
         
-    const exp = experiences.map( (data)=>{       
+           
             return(
             
                     
@@ -18,25 +21,29 @@ function Experience() {
                     
                 <Card key={data.id} className="cards-experience"> 
                 
-                    <Card.Title className="cards-experience-title">
+                    <CardTitle className="cards-experience-title">
                         {data.title}
-                    </Card.Title>
+                    </CardTitle>
                     
-                    <Card.Header>
+                    
+                    <CardHeader>
                         {data.startDate + " "}
                         - 
                         {" "+data.endDate}
                         
-                    </Card.Header>
-                    
-                    <Card.Body>
-                        {data.explanation}
-                    </Card.Body>
-                
+                    </CardHeader>
+                    <button  onClick={toggle} className="experiences-expand-button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                        </svg></button>
+                        <Collapse isOpen={isOpen}>
+                            <CardBody className="experiences-body">
+                                {data.explanation}
+                            </CardBody>
+                         </Collapse>
                 
                 </Card>
-                
-                    
+               
+            )
                     
                     
                        
@@ -44,9 +51,8 @@ function Experience() {
                         
                     
                 
-            )
-    });
-            return(<div className="each-Widget">{exp}</div>);
+            
+            
 
 
 }

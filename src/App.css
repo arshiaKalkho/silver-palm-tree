@@ -413,7 +413,7 @@ a {
   background-color: rgba(206, 206, 206, 0.9);
 }
 .cards-skill {
-  background-color: rgba(251, 251, 251, 0.5);
+  background-color: rgba(251, 251, 251, 0);
   border: 2px;
   border-style: outset;
   margin-top: 2px;
@@ -488,6 +488,18 @@ a {
   width: 90vw;
 
   overflow-y: scroll;
+}
+.experiences-body {
+  font-family: "Roboto", sans-serif;
+}
+.experiences-expand-button {
+  width: 10vw;
+  height: 3vh;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+.experiences-expand-button:active {
+  transform: rotate(360deg);
 }
 
 .h3 {
