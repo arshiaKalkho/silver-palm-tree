@@ -416,7 +416,7 @@ a {
 }
 .skills-div {
   margin: 0px;
-  padding: 0 0 0 2vw;
+  padding: 0 1vw 0 2vw;
   border-radius: 10px;
   max-height: 30rem;
   width: 35vw;
@@ -426,6 +426,7 @@ a {
 .large-skill-summery-flex {
   display: flex;
   justify-content: space-evenly;
+  margin: 0px 5px;
   min-width: 45vw;
   max-height: 50vh;
   background-color: rgba(204, 204, 204, 0.8);
@@ -441,9 +442,12 @@ a {
   background: rgba(0, 0, 0, 0);
 }
 .skillSummery-header {
-  margin-top: 5px;
+  margin: 5px 0px;
   text-align: center;
   font-family: Anton;
+}
+.skillSummery-body {
+  margin-top: 2vh;
 }
 .skill-summery {
   margin-top: 8px;
@@ -522,16 +526,6 @@ a {
   margin-right: 1vw;
   /* this is needed for alignemnt */
 }
-.side-body-left {
-  background-image: url("./images/body-left.svg");
-  background-size: contain;
-  visibility: hidden;
-}
-.side-body-right {
-  background-image: url("./images/body-right.svg");
-  background-size: contain;
-  visibility: hidden;
-}
 
 /* Small screens */
 
@@ -542,7 +536,8 @@ a {
   }
   .large-skill-summery-flex {
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
   }
   .skill-summery {
     height: 25vh;
@@ -572,7 +567,7 @@ a {
     width: 15vw;
   }
   .skills-div {
-    padding: 0px;
+    padding-right: 0px;
   }
   .navbar {
     bottom: 0;

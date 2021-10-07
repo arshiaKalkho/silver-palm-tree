@@ -5,9 +5,9 @@ function skillSummery(props) {
     return (
         <div>
             <div className="skillSummery-header">{props.skill.name}</div>
-            
-            {props.skill.summary}
-        
+            <div className="skillSummery-body">
+                {props.skill.summary}
+            </div>
         </div>
     )
 }
