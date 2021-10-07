@@ -1,53 +1,51 @@
 [
     {
     "id": 1,
-    "name": "first"
-    ,"summary" : "this is summery 1",
-    "img":"./images/logos/react-logo.svg"
+    "name": "React"
+    ,"summary" : "React is my framework of choice in all my web projects, i started using it in 2019 and still use and learn new things about it."
 
     },
     {
     "id": 2,
-    "name": "first"
-    ,"summary" : "this is summery 2",
-    "img":"./images/logos/react-logo.svg"
+    "name": "NodeJS"
+    ,"summary" : "NodeJS is just magnificent, i have used node extensively in my personal reaspberypi projects and projects during college, like using node as a PLC in solar plant monitoring app."
     },
     {
     "id": 3,
-    "name": "first"
-    ,"summary" : "this is summery 3",
-    "img":"./images/logos/html5-logo.svg"
+    "name": "JavaScript"
+    ,"summary" : "javascript is my first high level language and one of the greatest languages i learned."
     },
     {
     "id": 4,
-    "name": "first"
-    ,"summary" : "this is summery",
-    "img":"./images/logos/css-logo.svg"
+    "name": "C++"
+    ,"summary" : "my language of choice for console application and personal projects, like my chess app check my github."
     },
     {
     "id": 5,
-    "name": "first"
-    ,"summary" : "this is summery"
+    "name": "HTML5"
+    ,"summary" : "html and css is my bread and butter, i use them almost everyday and am completely fluent."
     },
     {
     "id": 6,
-    "name": "first"
-    ,"summary" : "this is summery"
+    "name": "CSS3"
+    ,"summary" : "like html , css is my bread and butter, i'm completely fluent in CSS3."
+    
     },
     {
     "id": 7,
-    "name": "first"
-    ,"summary" : "this is summery"
+    "name": "MongoDB"
+    ,"summary" : "MongoDB was initially used in this project too, i have used mongoDB and other databases in my project."
+    
     },
     {
     "id": 8,
-    "name": "first"
-    ,"summary" : "this is summery"
+    "name": "Bootstrap"
+    ,"summary" : "Bootstrap made my life easy as a beginner, but still somtimes its handiy for a quick modal."
     },
     {
     "id": 9,
-    "name": "first"
-    ,"summary" : "this is summery"
+    "name": "Axios"
+    ,"summary" : "i have used axius in this project to fetch request from apis(which i will implement soon)"
     },
     {
     "id": 10,

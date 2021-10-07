@@ -39,7 +39,6 @@ export class skill extends Component{
             
                 <Card.Body className="cards-skill-body" >
                 
-                {()=>{if(this.props.isxl){return this.sum}}}
                     
                 
                 </Card.Body>

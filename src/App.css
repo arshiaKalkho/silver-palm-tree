@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 
 :root {
@@ -175,9 +176,6 @@ a {
   height: 100%;
 }
 
-.slide-show {
-}
-
 .slide1 {
   background-image: url("./images/personal-portfolio.jpg");
   font-family: "Anton", sans-serif;
@@ -333,16 +331,6 @@ a {
   justify-content: space-evenly;
 }
 
-.cards-skill {
-  background-color: rgba(251, 251, 251, 0.5);
-  border: 2px;
-  border-style: outset;
-  margin-top: 2px;
-  border-radius: 10px;
-  height: 12vh;
-  width: 12vw;
-}
-
 #\31 > .cards-skill-body {
   margin-top: -5px;
   background-image: url("./images/logos/react-logo.svg");
@@ -385,6 +373,27 @@ a {
   background-position: center;
   background-repeat: no-repeat;
 }
+#\37 > .cards-skill-body {
+  margin-top: -5px;
+  background-image: url("./images/logos/mongodb-logo.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#\38 > .cards-skill-body {
+  margin-top: -5px;
+  background-image: url("./images/logos/bootstrap-logo.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#\39 > .cards-skill-body {
+  margin-top: -5px;
+  background-image: url("./images/logos/axios-logo.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
 .cards-experience {
   background-color: rgba(204, 204, 204, 0.8);
@@ -396,27 +405,56 @@ a {
 .cards-skill:hover {
   background-color: rgba(206, 206, 206, 0.9);
 }
+.cards-skill {
+  background-color: rgba(251, 251, 251, 0.5);
+  border: 2px;
+  border-style: outset;
+  margin-top: 2px;
+  border-radius: 10px;
+  height: 12vh;
+  width: 12vw;
+}
 .skills-div {
-  margin: 10px 0px;
+  margin: 0px;
   padding: 0 0 0 2vw;
   border-radius: 10px;
   max-height: 30rem;
-  width: 30vw;
+  width: 35vw;
   overflow-y: scroll;
   overflow-x: hidden;
 }
 .large-skill-summery-flex {
   display: flex;
   justify-content: space-evenly;
+  min-width: 45vw;
+  max-height: 50vh;
+  background-color: rgba(204, 204, 204, 0.8);
+  border-radius: 10px;
 }
 .widget-large-skill > .each-Widget > .cards-skill {
+  width: 30vw;
+  height: 50vh;
+  padding: 12px;
+  margin-top: 6px;
+  border: 0vw;
+  overflow-x: hidden;
+  background: rgba(0, 0, 0, 0);
+}
+.skillSummery-header {
+  margin-top: 5px;
+  text-align: center;
+  font-family: Anton;
+}
+.skill-summery {
   margin-top: 8px;
+  margin-left: 4px;
+  border-radius: 10px;
   width: 30vw;
   height: 60vh;
-
   max-height: 30rem;
-
   overflow-x: hidden;
+
+  font-family: "Roboto", sans-serif;
 }
 .widget-large-skill {
   width: 30vw;
@@ -430,19 +468,6 @@ a {
   background-color: rgba(229, 233, 233, 0);
   margin: -5px;
   min-height: 20vh;
-}
-.skill-summery {
-  background-color: greenyellow;
-  margin-top: 8px;
-  margin-left: 0px;
-  border-radius: 10px;
-
-  width: 30vw;
-  height: 60vh;
-
-  max-height: 30rem;
-
-  overflow-x: hidden;
 }
 
 .experiences-div {
@@ -483,11 +508,11 @@ a {
 .summery {
   background-color: rgba(204, 204, 204, 0.8);
   border-radius: 10px;
-  width: 90vw;
+  width: 80vw;
   margin: 2vw;
 }
 .summery-text {
-  margin: 10px;
+  /* margin: 10px; */
   word-wrap: break-word;
 }
 .body-row {
@@ -521,13 +546,14 @@ a {
   }
   .skill-summery {
     height: 25vh;
+    width: 40vw;
   }
   .experiences-div {
     margin-left: 5px;
     width: 94vw;
   }
   .widget-half-div {
-    margin-left: -5px;
+    margin: 0px 1px;
     padding-left: 0px;
   }
   .widget-large-skill {
@@ -540,12 +566,14 @@ a {
   }
 
   .cards-skill {
-    margin: 5px 10px;
+    margin: 2px 2px;
     border-radius: 10px;
-    height: 7vh;
-    width: 10vw;
+    height: 10vh;
+    width: 15vw;
   }
-
+  .skills-div {
+    padding: 0px;
+  }
   .navbar {
     bottom: 0;
     width: 100vw;
@@ -563,7 +591,7 @@ a {
     margin: 6vw;
   }
   .nav-link {
-    justify-content: space-evenly;
+    justify-content: space-around;
   }
 
   main {
@@ -577,7 +605,7 @@ a {
   }
 }
 
-/* Large screens */
+/* Large screens navbar*/
 @media only screen and (min-width: 700px) {
   .navbar {
     top: 0;
