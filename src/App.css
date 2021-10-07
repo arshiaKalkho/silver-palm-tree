@@ -375,7 +375,7 @@ a {
 }
 #\37 > .cards-skill-body {
   margin-top: -5px;
-  background-image: url("./images/logos/mongodb-logo.svg");
+  background-image: url("./images/logos/azure-logo.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -390,6 +390,13 @@ a {
 #\39 > .cards-skill-body {
   margin-top: -5px;
   background-image: url("./images/logos/axios-logo.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#\39 > .cards-skill-body {
+  margin-top: -5px;
+  background-image: url("./images/logos/mongodb-logo.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -477,8 +484,9 @@ a {
 .experiences-div {
   border-radius: 10px;
   padding-left: 2vw;
-  max-height: 40vh;
-  width: 88vw;
+  max-height: 60vh;
+  width: 90vw;
+
   overflow-y: scroll;
 }
 

@@ -23,9 +23,9 @@ function Experience() {
                     </Card.Title>
                     
                     <Card.Header>
-                        {data.startDate}
+                        {data.startDate + " "}
                         - 
-                        {data.endDate}
+                        {" "+data.endDate}
                         
                     </Card.Header>
                     

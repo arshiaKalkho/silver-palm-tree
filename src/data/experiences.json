@@ -5,7 +5,14 @@
         "title":"Capstone project - Seneca College",
         "startDate":"1/1/2020",
         "endDate":"1/3/2020",
-        "explanation":"works with voltaire power, on a full stack application"
+        "explanation":"As part of a agile team, created a web application using NodeJS, grafana and influxDB to read information from modBus solar panel inverteds. the goal of the project was to read information from PLC placed inside Seneca Newnham Campus, the data was read using NodeJS and sent to influxDB, afterwards the data would be downloaded to grafana where we calculated expected output using a formula produced by Seneca's Engineering team which took into consideration weather, plant layout, inverter age and more. Also the software was able to predict inverter failure and reduce downtime. Our app was Sponsered by a third party company(Voltare Power)."
+    
+    },{
+        "id":2,
+        "title":"Peer Tutor - Seneca College",
+        "startDate":"1/1/2020",
+        "endDate":"1/3/2020",
+        "explanation":"in colaborative environment, tutored students in a one-on-one or group based calsses to improve their knowledge in React, Angular and html-css topics that were included with their WEB322 and WEB422"
     
     },{
     
@@ -21,13 +28,6 @@
         "startDate":"1/1/2020",
         "endDate":"1/3/2020",
         "explanation":"works with voltaire power, on a full stack application"
-    
-    },{
-        "id":2,
-        "title":"Peer Tutor - Senecal Collge",
-        "startDate":"1/1/2020",
-        "endDate":"1/3/2020",
-        "explanation":"works with students in a collaborative environment, groups based and one on one sessions to give them a boost in react and angular"
     
     },{
         "id":3,
