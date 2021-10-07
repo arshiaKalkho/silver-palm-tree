@@ -19,18 +19,18 @@ export default class Body extends Component{
             <div className="body">
                 
                 <div className="slides">
-                   
-                     <Slides/>
+                
+                    <Slides/>
                 </div>
                 <h3 className="h3-headers"> About me</h3>
+                
+                
                 <div className="summery" data-aos="fade-right">
-                        <Summery/> 
+                    <Summery/> 
                 </div>
                 
                 
-                <div className="body-website-info">
-                   
-                </div>
+                
                 <div className=" body-row">
         
                 <div className="body-footer-spacer"> </div>

@@ -26,7 +26,7 @@ function Experience(props) {
                     </CardTitle>
                     
                     
-                    <CardHeader>
+                    <CardHeader className="cards-experience-header">
                         {data.startDate + " "}
                         - 
                         {" "+data.endDate}

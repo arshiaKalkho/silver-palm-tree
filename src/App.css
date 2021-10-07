@@ -492,14 +492,23 @@ a {
 .experiences-body {
   font-family: "Roboto", sans-serif;
 }
+.cards-experience-header {
+  text-align: center;
+}
+
+.cards-experience-title {
+  text-align: center;
+  font-family: "Anton", sans-serif;
+}
 .experiences-expand-button {
-  width: 10vw;
-  height: 3vh;
+  size: inherit;
   border: none;
   background-color: rgba(0, 0, 0, 0);
+  transform: rotate(0deg);
+  transition: 1000ms;
 }
 .experiences-expand-button:active {
-  transform: rotate(360deg);
+  transform: rotate(-720deg);
 }
 
 .h3 {
@@ -508,7 +517,7 @@ a {
 .h3-headers {
   margin: 2rem 0rem;
   border-radius: 5px;
-  height: 2.5rem;
+  height: 3rem;
   font-family: "Anton", sans-serif;
   color: white;
 
@@ -532,12 +541,15 @@ a {
 .summery {
   background-color: rgba(204, 204, 204, 0.8);
   border-radius: 10px;
-  width: 80vw;
-  margin: 2vw;
+  width: auto;
+  margin: 0px 2px;
+  padding: 3px;
 }
 .summery-text {
-  /* margin: 10px; */
+  size: inherit;
+  font-size: 2vw;
   word-wrap: break-word;
+  font-family: Roboto;
 }
 .body-row {
   margin: 0;
