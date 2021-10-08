@@ -25,7 +25,7 @@ export default class Body extends Component{
                 <h3 className="h3-headers"> About me</h3>
                 
                 
-                <div className="summery" data-aos="fade-right">
+                <div className="summery">
                     <Summery/> 
                 </div>
                 
