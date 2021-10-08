@@ -538,12 +538,24 @@ a {
   border-radius: 100vw;
 }
 
+
 .summery {
-  background-color: rgba(204, 204, 204, 0.8);
   border-radius: 10px;
-  width: auto;
-  margin: 0px 2px;
+  max-width: 90vw;
+  margin: 0px 1vw;
   padding: 3px;
+}
+.summery-text > h3 {
+  background-color: var(--bg-primary);
+  color: var(--text-secondary);
+  border-radius: 10px;
+  text-align: center;
+  font-family: "Anton", sans-serif;
+}
+.summery-text > p {
+  padding: 4px;
+  border-radius: 10px;
+  background-color: rgba(204, 204, 204, 0.8);
 }
 .summery-text {
   size: inherit;
@@ -566,6 +578,12 @@ a {
     margin-left: 0px;
     padding-left: 0px;
   }
+  .summery {
+    margin-left: 4vw;
+  }
+  .summery-text {
+    font-size: 4vw;
+  }
   .large-skill-summery-flex {
     flex-direction: column;
     justify-content: center;
@@ -574,6 +592,7 @@ a {
   .skill-summery {
     height: 25vh;
     width: 40vw;
+    margin-right: 2vw;
   }
   .experiences-div {
     margin-left: 5px;
@@ -664,5 +683,11 @@ a {
   }
   .websiteinfo-div {
     min-height: 90vh;
+  }
+  .summery-text {
+    font-size: 1vw;
+  }
+  .skill-summery {
+    margin-right: 4vw;
   }
 }
