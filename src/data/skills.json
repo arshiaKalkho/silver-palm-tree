@@ -44,7 +44,7 @@
     {
     "id": 9,
     "name": "Axios"
-    ,"summary" : "i have used axius in this project to fetch request from apis(which i will implement soon)"
+    ,"summary" : "i have used axius in this project to fetch request from apis(which i will publish soon)"
     },
     {
     "id": 10,
@@ -53,13 +53,13 @@
     },
     {
     "id": 11,
-    "name": "first"
-    ,"summary" : "this is summery"
+    "name": "Nothing for now"
+    ,"summary" : "but don't worry, I'm constantly learning. This will be filled soon by Docker, Rest api... I will add them when i'm confident in my skills in them."
     },
     {
     "id": 12,
-    "name": "first"
-    ,"summary" : "this is summery"
+    "name": "Nothing for now"
+    ,"summary" : "but don't worry, I'm constantly learning. This will be filled soon by Docker, Rest api... I will add them when i'm confident in my skills in them."
     }
 
 
