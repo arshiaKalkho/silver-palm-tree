@@ -32,9 +32,9 @@
     
     },
     {
-    "id": 7,
-    "name": "Azure"
-    ,"summary" : "I've used azure to host domains before made VMs and domain controllers, i have completed Azure AZ900 course and assessment."
+    "id": 7,    
+    "name": "Rest API"
+    ,"summary" : "I have  experience and knowledge about Rest/Restful APIs, I'v used Rest to connect to services like spotify. Checkout my repo (react-spotify-api)"
     },
     {
     "id": 8,
@@ -43,8 +43,8 @@
     },
     {
     "id": 9,
-    "name": "Axios"
-    ,"summary" : "i have used axius in this project to fetch request from apis(which i will publish soon)"
+    "name": "Azure"
+    ,"summary" : "I've used azure to host domains before made VMs and domain controllers, i have completed Azure AZ900 course and assessment."
     },
     {
     "id": 10,
@@ -53,13 +53,13 @@
     },
     {
     "id": 11,
-    "name": "Nothing for now"
-    ,"summary" : "but don't worry, I'm constantly learning. This will be filled soon by Docker, Rest api... I will add them when i'm confident in my skills in them."
+    "name": "Axios"
+    ,"summary" : "i have used axius in this project to fetch request from apis(which i will publish soon)"
     },
     {
     "id": 12,
     "name": "Nothing for now"
-    ,"summary" : "but don't worry, I'm constantly learning. This will be filled soon by Docker, Rest api... I will add them when i'm confident in my skills in them."
+    ,"summary" : "but don't worry, I'm constantly learning. This will be filled soon by Docker, D3.js... I will add them when i'm confident in them."
     }
 
 

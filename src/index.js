@@ -9,8 +9,6 @@ import "./App.css";
 function index() {
   
   return (<>
-  
-    
     <Main/>
     </>
   )

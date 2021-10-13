@@ -375,7 +375,7 @@ a {
 }
 #\37 > .cards-skill-body {
   margin-top: -5px;
-  background-image: url("./images/logos/azure-logo.svg");
+  background-image: url("./images/logos/Rest-logo.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -389,7 +389,7 @@ a {
 }
 #\39 > .cards-skill-body {
   margin-top: -5px;
-  background-image: url("./images/logos/axios-logo.svg");
+  background-image: url("./images/logos/azure-logo.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -401,7 +401,13 @@ a {
   background-position: center;
   background-repeat: no-repeat;
 }
-#\31 1{}
+#\31 1{
+  margin-top: -5px;
+  background-image: url("./images/logos/axios-logo.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 #\31 2{}
 
 .cards-experience {
