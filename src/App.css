@@ -643,7 +643,7 @@ a {
     flex-direction: row;
   }
   .nav-item {
-    margin: 6vw;
+    margin: 2vw;
   }
   .nav-link {
     justify-content: space-around;
