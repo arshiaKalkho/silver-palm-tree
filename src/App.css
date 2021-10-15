@@ -42,6 +42,7 @@ html {
   width: 100%;
 }
 
+
 .nav-item:last-child {
   margin-top: auto;
 }
@@ -56,14 +57,24 @@ html {
   transition: var(--transition-speed);
 }
 
+
+.nav-link-projects{
+  filter: grayscale(0%) opacity(1);
+color:yellow
+}
+
+
+
 .nav-link:hover {
   filter: grayscale(0%) opacity(1);
   background: var(--bg-secondary);
   color: var(--text-secondary);
 }
+
+
 .nav-link:active {
-  background-color: rgb(200, 235, 6);
-  transition: 1m;
+  background-color: var(--text-secondary);
+  transition: 100m;
 }
 
 .link-text {
