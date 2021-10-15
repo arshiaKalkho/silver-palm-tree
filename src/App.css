@@ -42,7 +42,6 @@ html {
   width: 100%;
 }
 
-
 .nav-item:last-child {
   margin-top: auto;
 }
@@ -57,20 +56,16 @@ html {
   transition: var(--transition-speed);
 }
 
-
-.nav-link-projects{
+.nav-link-projects {
   filter: grayscale(0%) opacity(1);
-color:yellow
+  color: yellow;
 }
-
-
 
 .nav-link:hover {
   filter: grayscale(0%) opacity(1);
   background: var(--bg-secondary);
   color: var(--text-secondary);
 }
-
 
 .nav-link:active {
   background-color: var(--text-secondary);
@@ -405,21 +400,22 @@ a {
   background-position: center;
   background-repeat: no-repeat;
 }
-#\31 0> .cards-skill-body {
+#\31 0 > .cards-skill-body {
   margin-top: -5px;
   background-image: url("./images/logos/mongodb-logo.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
-#\31 1{
+#\31 1 {
   margin-top: -5px;
   background-image: url("./images/logos/axios-logo.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
-#\31 2{}
+#\31 2 {
+}
 
 .cards-experience {
   background-color: rgba(204, 204, 204, 0.8);
@@ -527,7 +523,7 @@ a {
   transition: 1000ms;
 }
 .experiences-expand-button:active {
-  transform: rotate(-720deg);
+  transform: rotate(-180deg);
 }
 
 .h3 {
@@ -557,7 +553,6 @@ a {
   background-color: rgb(87, 84, 84);
   border-radius: 100vw;
 }
-
 
 .summery {
   border-radius: 10px;
