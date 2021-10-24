@@ -1,6 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
 
 :root {
   font-size: 16px;
@@ -10,8 +11,11 @@
   --bg-primary: #23232e;
   --bg-secondary: #141418;
   --transition-speed: 600ms;
+  font-family: "Roboto", sans-serif;
 }
-
+h1,h2,h3,h4,h5,h6,p{
+  font-family: "Anton", sans-serif,serif;
+}
 html {
   margin: 0;
   padding: 0;
@@ -194,6 +198,17 @@ a {
 
 .slide3 {
   background-image: url("./images/react.jpg");
+  text-align: center;
+}
+.slide3 .carousel-caption > div > h1
+{
+  color: #e2f10a;
+}
+.slide3 .carousel-caption > div > h5 {
+  color: var(--text-secondary);
+}
+.slide3 > a > svg {
+  margin-top: 15vh;
 }
 .slide4 {
   background-image: url("./images/second-slide-image.jpg");
@@ -669,6 +684,12 @@ a {
   .info-card-9 {
     visibility: hidden;
   }
+  .slide3 > a > svg{
+    padding-right: 12vw;
+
+  }
+
+  
 }
 
 /* Large screens navbar*/
