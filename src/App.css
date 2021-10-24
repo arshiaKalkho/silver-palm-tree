@@ -415,6 +415,11 @@ a {
   background-repeat: no-repeat;
 }
 #\31 2 {
+  margin-top: -5px;
+  background-image: url("./images/logos/d3js-logo.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .cards-experience {

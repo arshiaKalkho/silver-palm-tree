@@ -58,6 +58,11 @@
     },
     {
     "id": 12,
+    "name": "D3.js"
+    ,"summary" : "I have recently learned d3.js, you can see my work in my projects folder, It automatically shows all my github repos that have been updated recently with a graph."
+    },
+    {
+    "id": 13,
     "name": "Nothing for now"
     ,"summary" : "but don't worry, I'm constantly learning. This will be filled soon by Docker, D3.js... I will add them when i'm confident in them."
     }
