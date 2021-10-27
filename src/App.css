@@ -1,5 +1,5 @@
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 
 
@@ -20,7 +20,7 @@ html {
   margin: 0;
   padding: 0;
   height: 100%;
-  font-family: "Anton", sans-serif;
+  font-family: "Roboto", sans-serif;
   overflow-x: hidden;
 }
 
@@ -589,14 +589,15 @@ a {
 }
 .summery-text > p {
   padding: 4px;
-  border-radius: 10px;
+  border-radius: 5px;
   background-color: rgba(204, 204, 204, 0.8);
+  font-family: "Roboto" ,sans-serif;
 }
 .summery-text {
   size: inherit;
   font-size: 2vw;
   word-wrap: break-word;
-  font-family: Roboto;
+  
 }
 .body-row {
   margin: 0;
