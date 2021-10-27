@@ -29,7 +29,7 @@ function Slides() {
                 <div class="carousel-caption">
 
                
-                    <h1>The building blocks</h1>
+                    <h1>The building blocks of this website</h1>
                 </div>
             </div>
             <div class="slide3 carousel-item">

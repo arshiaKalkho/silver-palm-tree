@@ -241,10 +241,10 @@ a {
   gap: 0rem;
 
   grid-template-areas:
-    "a  b  c  d"
-    "a  🌟 🌟 e"
-    "k  🌟 🌟 e"
-    "j  i  h  g";
+    "b b c c"
+    "x x x x"
+    "x x x x"
+    "i i h h";
 
   grid-template-rows: repeat(4, 25%);
   grid-template-columns: repeat(4, 25%);
@@ -270,75 +270,57 @@ a {
   opacity: 1;
   border-radius: 10px;
 }
+
 .info-card-1 {
-  grid-area: a;
-  background-color: rgba(204, 204, 204, 0.8);
-  animation-delay: calc(1 * var(--stagger-delay));
-}
-.info-card-2 {
   grid-area: b;
   background-image: url("./images/logos/html5-logo.svg");
+  background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
 
   animation-delay: calc(2 * var(--stagger-delay));
 }
-.info-card-3 {
+.info-card-2 {
   grid-area: c;
   background-image: url("./images/logos/css-logo.svg");
+  background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   animation-delay: calc(3 * var(--stagger-delay));
 }
-.info-card-4 {
-  grid-area: d;
-  background-color: rgba(204, 204, 204, 0.8);
+
+.info-card-3 {
+  grid-area: h;
+  background-image: url("./images/logos/bootstrap-logo.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
   animation-delay: calc(4 * var(--stagger-delay));
 }
-.info-card-5 {
-  grid-area: e;
-  background-color: rgba(204, 204, 204, 0.8);
+.info-card-4 {
+  grid-area: i;
+  background-image: url("./images/logos/axios-logo.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
   animation-delay: calc(5 * var(--stagger-delay));
 }
 
-.info-card-7 {
-  grid-area: g;
-
-  animation-delay: calc(7 * var(--stagger-delay));
-}
-.info-card-8 {
-  grid-area: h;
-  background-image: url("./images/logos/bootstrap-logo.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
-
-  animation-delay: calc(8 * var(--stagger-delay));
-}
-.info-card-9 {
-  grid-area: i;
-  background-image: url("./images/logos/axios-logo.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
-
-  animation-delay: calc(8 * var(--stagger-delay));
-}
-.info-card-10 {
-  grid-area: j;
-  background-color: rgba(204, 204, 204, 0.8);
-  animation-delay: calc(8 * var(--stagger-delay));
-}
-.info-card-11 {
-  grid-area: k;
-  background-color: rgba(204, 204, 204, 0.8);
-  animation-delay: calc(8 * var(--stagger-delay));
-}
-.info-card-12 {
-  grid-area: 🌟;
-  animation-delay: calc(9 * var(--stagger-delay));
+.info-card-5 {
+  grid-area: x;
+  animation-delay: calc(6 * var(--stagger-delay));
   background-image: url("./images/logos/react-logo.svg");
+  background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
 }
+
+
+
+
+
 
 .links {
   padding: 9px 50px;
