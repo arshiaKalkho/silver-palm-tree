@@ -2,13 +2,13 @@
     {
     "id": 1,
     "name": "React"
-    ,"summary" : "React is my framework of choice in all my web projects, i started using it in 2019 and still use and learn new things about it."
+    ,"summary" : "React is my framework of choice in all my web projects including this website, i started using it in 2019 and still use and learn new things about it."
 
     },
     {
     "id": 2,
     "name": "NodeJS"
-    ,"summary" : "NodeJS is just magnificent, i have used node extensively in my personal reaspberypi projects and projects during college, like using node as a PLC in solar plant monitoring app."
+    ,"summary" : "NodeJS is just magnificent, i have used node extensively in my personal reaspberypi projects and projects during college, like using node as a PLC in solar plant monitoring app and my projects website."
     },
     {
     "id": 3,
@@ -34,7 +34,7 @@
     {
     "id": 7,    
     "name": "Rest API"
-    ,"summary" : "I have  experience and knowledge about Rest/Restful APIs, I'v used Rest to connect to services like spotify. Checkout my repo (react-spotify-api)"
+    ,"summary" : "I have  experience and knowledge about Rest/Restful APIs, I'v used Rest to connect to services like Spotify and Github. Checkout my repo and project website for source code and published project"
     },
     {
     "id": 8,
@@ -44,12 +44,12 @@
     {
     "id": 9,
     "name": "Azure"
-    ,"summary" : "I've used azure to host domains before made VMs and domain controllers, i have completed Azure AZ900 course and assessment."
+    ,"summary" : "I've used azure to host domains before, made VMs and domain controllers, Designed networks and load balancers, Created ad domains and much more. I have completed Azure AZ900 course and assessment."
     },
     {
     "id": 10,
     "name": "MongoDB"
-    ,"summary" : "MongoDB was initially used in this project too, i have used mongoDB and other databases in my project."
+    ,"summary" : "MongoDB was initially used in this project too, i have used mongoDB and other databases in my projects. Checkout my projects site from navbar the authentication system uses MongoDB."
     },
     {
     "id": 11,
@@ -58,8 +58,13 @@
     },
     {
     "id": 12,
+    "name": "D3.js"
+    ,"summary" : "I have recently learned d3.js, you can see my work in my projects site, It automatically shows all my github repos that have been updated recently with a multi level dynamic graph."
+    },
+    {
+    "id": 13,
     "name": "Nothing for now"
-    ,"summary" : "but don't worry, I'm constantly learning. This will be filled soon by Docker, D3.js... I will add them when i'm confident in them."
+    ,"summary" : "but don't worry, I'm constantly learning. This will be filled soon by Docker, D3.js(hey i did this one)... I will add them when i'm confident in them."
     }
 
 

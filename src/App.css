@@ -1,6 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
 
 :root {
   font-size: 16px;
@@ -10,13 +11,16 @@
   --bg-primary: #23232e;
   --bg-secondary: #141418;
   --transition-speed: 600ms;
+  font-family: "Roboto", sans-serif;
 }
-
+h1,h2,h3,h4,h5,h6,p{
+  font-family: "Anton", sans-serif,serif;
+}
 html {
   margin: 0;
   padding: 0;
   height: 100%;
-  font-family: "Anton", sans-serif;
+  font-family: "Roboto", sans-serif;
   overflow-x: hidden;
 }
 
@@ -194,6 +198,17 @@ a {
 
 .slide3 {
   background-image: url("./images/react.jpg");
+  text-align: center;
+}
+.slide3 .carousel-caption > div > h1
+{
+  color: #e2f10a;
+}
+.slide3 .carousel-caption > div > h5 {
+  color: var(--text-secondary);
+}
+.slide3 > a > svg {
+  margin-top: 15vh;
 }
 .slide4 {
   background-image: url("./images/second-slide-image.jpg");
@@ -226,10 +241,10 @@ a {
   gap: 0rem;
 
   grid-template-areas:
-    "a  b  c  d"
-    "a  🌟 🌟 e"
-    "k  🌟 🌟 e"
-    "j  i  h  g";
+    "b b c c"
+    "x x x x"
+    "x x x x"
+    "i i h h";
 
   grid-template-rows: repeat(4, 25%);
   grid-template-columns: repeat(4, 25%);
@@ -255,75 +270,57 @@ a {
   opacity: 1;
   border-radius: 10px;
 }
+
 .info-card-1 {
-  grid-area: a;
-  background-color: rgba(204, 204, 204, 0.8);
-  animation-delay: calc(1 * var(--stagger-delay));
-}
-.info-card-2 {
   grid-area: b;
   background-image: url("./images/logos/html5-logo.svg");
+  background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
 
   animation-delay: calc(2 * var(--stagger-delay));
 }
-.info-card-3 {
+.info-card-2 {
   grid-area: c;
   background-image: url("./images/logos/css-logo.svg");
+  background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   animation-delay: calc(3 * var(--stagger-delay));
 }
-.info-card-4 {
-  grid-area: d;
-  background-color: rgba(204, 204, 204, 0.8);
+
+.info-card-3 {
+  grid-area: h;
+  background-image: url("./images/logos/bootstrap-logo.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
   animation-delay: calc(4 * var(--stagger-delay));
 }
-.info-card-5 {
-  grid-area: e;
-  background-color: rgba(204, 204, 204, 0.8);
+.info-card-4 {
+  grid-area: i;
+  background-image: url("./images/logos/axios-logo.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
   animation-delay: calc(5 * var(--stagger-delay));
 }
 
-.info-card-7 {
-  grid-area: g;
-
-  animation-delay: calc(7 * var(--stagger-delay));
-}
-.info-card-8 {
-  grid-area: h;
-  background-image: url("./images/logos/bootstrap-logo.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
-
-  animation-delay: calc(8 * var(--stagger-delay));
-}
-.info-card-9 {
-  grid-area: i;
-  background-image: url("./images/logos/axios-logo.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
-
-  animation-delay: calc(8 * var(--stagger-delay));
-}
-.info-card-10 {
-  grid-area: j;
-  background-color: rgba(204, 204, 204, 0.8);
-  animation-delay: calc(8 * var(--stagger-delay));
-}
-.info-card-11 {
-  grid-area: k;
-  background-color: rgba(204, 204, 204, 0.8);
-  animation-delay: calc(8 * var(--stagger-delay));
-}
-.info-card-12 {
-  grid-area: 🌟;
-  animation-delay: calc(9 * var(--stagger-delay));
+.info-card-5 {
+  grid-area: x;
+  animation-delay: calc(6 * var(--stagger-delay));
   background-image: url("./images/logos/react-logo.svg");
+  background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
 }
+
+
+
+
+
 
 .links {
   padding: 9px 50px;
@@ -415,6 +412,11 @@ a {
   background-repeat: no-repeat;
 }
 #\31 2 {
+  margin-top: -5px;
+  background-image: url("./images/logos/d3js-logo.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .cards-experience {
@@ -546,11 +548,11 @@ a {
 }
 ::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 1px rgba(0, 0, 0, 1);
-  box-shadow: inset 0 0 1px rgba(0, 0, 0, 1);
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 1);
   border-radius: 100vw;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: rgb(87, 84, 84);
+  background-color: rgb(26, 23, 23);
   border-radius: 100vw;
 }
 
@@ -569,14 +571,15 @@ a {
 }
 .summery-text > p {
   padding: 4px;
-  border-radius: 10px;
+  border-radius: 5px;
   background-color: rgba(204, 204, 204, 0.8);
+  font-family: "Roboto" ,sans-serif;
 }
 .summery-text {
   size: inherit;
   font-size: 2vw;
   word-wrap: break-word;
-  font-family: Roboto;
+  
 }
 .body-row {
   margin: 0;
@@ -664,6 +667,12 @@ a {
   .info-card-9 {
     visibility: hidden;
   }
+  .slide3 > a > svg{
+    padding-right: 12vw;
+
+  }
+
+  
 }
 
 /* Large screens navbar*/
