@@ -520,7 +520,7 @@ a {
   border: none;
   background-color: rgba(0, 0, 0, 0);
   transform: rotate(0deg);
-  transition: 1000ms;
+  transition: 150ms;
 }
 .experiences-expand-button:active {
   transform: rotate(-180deg);
