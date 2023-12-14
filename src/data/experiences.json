@@ -2,47 +2,43 @@
     
     {
         "id":1,
-        "title":"Capstone project - Seneca College",
-        "startDate":"1/1/2020",
-        "endDate":"1/3/2020",
-        "explanation":"As part of a agile team, created a web application using NodeJS, grafana and influxDB to read information from modBus solar panel inverters. the goal of the project was to read information from PLC placed inside Seneca Newnham Campus, the data was read using NodeJS and sent to influxDB, afterwards the data would be downloaded to grafana where we calculated expected output using a formula produced by Seneca's Engineering team which took into consideration weather, plant layout, inverter age and more. Also the software was able to predict inverter failure and reduce downtime. Our app was Sponsered by a third party company(Voltare Power)."
+        "title":"Front End Dev - Menupoly",
+        "startDate":"1/4/2022",
+        "endDate":"Current",
+        "explanation":"I worked as a Vue developer on a multitude of different applications. Developed responsive, clean code for Kiosk street ordering. dealt with and maintained the menupoly.com website restaurant dashboard. Implemented third-party libraries like Stripe and JSPM for full integration of payment methods online and in person. designed security solutions to handle spamming and unauthorized access. maintained internal printing and a security application on the customer-side local network. "
+    
+    },
+    {
+        "id":2,
+        "title":"Full Stack - Voltaire Power Ltd",
+        "startDate":"1/1/2021",
+        "endDate":"1/6/2021",
+        "explanation":"As part of an agile team, I created a web application using NodeJS, Express, MongoDB, and Vue3 to read information from modBus PLCs. Our team used a proprietary algorithm developed by the engineering department at Seneca that was capable of predicting inverter failure and recommending cleaning to increase uptime at home and industrial plants, which reduced plant downtime by 22% while increasing efficiency."
     
     }
     ,{
-        "id":2,
+        "id":3,
+        "title":"Freelance Dev",
+        "startDate":"1/05/2020",
+        "endDate":"1/4/2022",
+        "explanation":"I worked as a full-stack developer, developing responsive web apps for companies like Aridental and Richmondhill Veterinary Hospital. added new functionality and maintained old code from libraries like React-Gatsby. working with third-party APIs like Storybook and using AWS resources like CrystalDB."
+    
+    ,{
+        "id":4,
         "title":"Peer Tutor - Seneca College",
-        "startDate":"1/1/2020",
-        "endDate":"3/1/2020",
+        "startDate":"1/05/2019",
+        "endDate":"14/12/2019",
         "explanation":"as a paid certified tutor in colaborative environment, Tutored students in a one-on-one or group based calsses to improve their knowledge in React, Angular and html-css topics that were included with their WEB322 and WEB422"
     
     }
     ,{ 
-        "id":4,
+        "id":5,
         "title":"Health Passport - Hackaton",
         "startDate":"3/1/2020",
         "endDate":"6/1/2020",
         "explanation":"Responsible for the complete logic and security design of the health passport android App. designed to be used for proof of vaccination during the pandemic. project was awarded second place."
     }
-    ,{
-        "id":3,
-        "title":"Personal Portfolio Website",
-        "startDate":"9/1/2021",
-        "endDate":"10/1/2021",
-        "explanation":"designed a website using react, html5, css3, bootstrap. the project contained full git source control and development cycles"
-    }
-    ,{
-        "id":4,
-        "title":"Chess console app - Personal Project",
-        "startDate":"10/1/2019",
-        "endDate":"12/1/2020",
-        "explanation":"created a chess app using C++ and added it to github inorder to continue working on it in the future"
-    }
-    ,{
-        "id":5,
-        "title":"Running App - IBM i project",
-        "startDate":"1/7/2020",
-        "endDate":"1/12/2020",
-        "explanation":"Developed a long-range studio appliation for IOS that uses GPS and Google maps to calculate exact point to point distances on the built in map for runners and joggers."
-    }
+    
+    
     ]
     
